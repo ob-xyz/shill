@@ -9,7 +9,7 @@
   flex-direction: column;
 }
 .container .inner-container img {
-  max-width: 5rem;
+  max-width: 7rem;
 }
 .container .inner-container h1 {
   margin-top: 1rem;
