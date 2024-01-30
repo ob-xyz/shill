@@ -30,14 +30,7 @@
   flex-direction: column;
 }
 .container .inner-container img {
-  max-width: 7rem;
-}
-.container .inner-container h1 {
-  margin-top: 1rem;
-  line-height: 1.5rem;
-  width: 22rem;
-  text-align: center;
-  font-size: 1rem;
+  max-width: 2.5rem;
 }
 
 * {
@@ -51,7 +44,7 @@ body {
   margin: auto;
   width: 100%;
   min-height: 100vh;
-  background-color: #E5FF00;
+  background-color: #FDF68F;
 }
 
 body {
@@ -62,7 +55,7 @@ body {
 main {
   padding: 0;
   margin: 0;
-  background: #E5FF00;
+  background: #FDF68F;
 }
 
 img {
@@ -106,7 +99,7 @@ h6 {
 }
 
 p {
-  font-family: "book";
+  font-family: "medium";
   font-size: 1.1rem;
   color: #121212;
   text-shadow: none;
