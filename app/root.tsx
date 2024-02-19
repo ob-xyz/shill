@@ -28,14 +28,14 @@ export const links: LinksFunction = () => {
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
   title: "Shill",
-  description: "Shill is something new for people like me and you.",
+  description: "something new.",
   viewport: "width=device-width,initial-scale=1",
 });
 
 export default function App() {
   return (
     <html lang="en">
-      <head>
+      <head>q
         <Meta />
         <Links />
       </head>
