@@ -28,7 +28,7 @@ export const links: LinksFunction = () => {
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
   title: "Shill",
-  description: "Shill - side quests start here. Make a side quest your main quest, or just shill with friends, family, and the world.",
+  description: "Shill - side quests start here. On a device you will discover side quests, main quests, and shills.",
   viewport: "width=device-width,initial-scale=1",
 });
 
