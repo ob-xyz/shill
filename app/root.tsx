@@ -27,8 +27,8 @@ export const links: LinksFunction = () => {
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: "Shill, the app",
-  description: "Shill to your people.", 
+  title: "Shill",
+  description: "Shilling starts here. With your iPhone create short video ads to shill things you like.", 
   viewport: "width=device-width,initial-scale=1",
 });
 

@@ -30,7 +30,7 @@
   flex-direction: column;
 }
 .container .inner-container img {
-  max-width: 2.5rem;
+  max-width: 14rem;
 }
 
 * {
