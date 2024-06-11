@@ -1,5 +1,5 @@
 .container {
-  height: 88.5vh;
+  height: 92.5vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -9,7 +9,7 @@
   flex-direction: column;
 }
 .container .inner-container img {
-  max-width: 7rem;
+  max-width: 6rem;
 }
 
 /*# sourceMappingURL=index.css.map */
