@@ -14,7 +14,7 @@ body {
   margin: auto;
   width:100%;
   min-height: 100vh;
-  background-color: #6cff7f;
+  background: linear-gradient(100.6deg, rgb(253, 140, 117) 10%, rgb(225, 252, 117) 60%);
 }
 body {
   overflow-y: none;
@@ -24,7 +24,7 @@ body {
 main{
   padding:0;
   margin:0;
-  background: #6cff7f;
+  background: linear-gradient(100.6deg, rgb(253, 140, 117) 0%, rgb(225, 252, 117) 80%);
 }
 
 img {
