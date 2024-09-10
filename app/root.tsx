@@ -28,7 +28,7 @@ export const links: LinksFunction = () => {
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
   title: "Shill",
-  description: "Shill is a free and open source way to search for something new.",
+  description: "the anything app.",
   viewport: "width=device-width,initial-scale=1",
 });
 
