@@ -28,7 +28,7 @@ export const links: LinksFunction = () => {
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
   title: "Shill: The #1 Email Operating System for Creators Doing Business",
-  description: "Shill runs your creator business, automate offers, increase ad sales, and send insertion orders, invoices, payments, campaign reports and insights all by email.",
+  description: "Shill runs creator run businesses. Automate offers. Increase ad sales. And send insertion orders, invoices, payments, campaign reports and insights all by email.",
   viewport: "width=device-width,initial-scale=1",
 });
 
