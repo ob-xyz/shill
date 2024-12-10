@@ -28,7 +28,7 @@ export const links: LinksFunction = () => {
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
   title: "Shill",
-  description: "Shill is an alternative to Amazon and Shopify.",
+  description: "Shill delivers innovative products, experiences and services to inspire entrepreneurs like me and you.",
   viewport: "width=device-width,initial-scale=1",
 });
 
