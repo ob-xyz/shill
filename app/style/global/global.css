@@ -22,12 +22,12 @@
 .container {
   display: flex;
   flex-direction: column;
-  max-height: 100vh;
 }
 .container img {
   background: none;
-  margin: 1.5rem 0 3rem 0;
-  width: 2.25rem;
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+  width: 4.5rem;
 }
 .container .inner-content {
   display: flex;
