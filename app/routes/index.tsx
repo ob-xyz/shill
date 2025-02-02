@@ -1,11 +1,41 @@
-import logo1 from "~/../public/img/ja.png";
+import { useEffect } from "react";
+import logo from "~/../public/img/ja.png";
 
 export default function Index() {
-  return (
+  useEffect(() => {
+    // Dynamically load the hCaptcha script
+    const script = document.createElement("script");
+    script.src = "https://js.hcaptcha.com/1/api.js";
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+
+    // Clean up script on component unmount
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
+return (
     <div className="container">
-      <div className="inner-container">
-        <img src={logo1} />
+      <div className="logo">
+        <img src={logo} />
       </div>
-    </div>
+      <div className="inner-content">
+      <div className="text">
+         <p>We're rolling out the red carpet</p>
+         <p>Get paid more being a premium driver with Shill.</p>
+         <p></p>
+      </div>
+      <form method="post" action="https://app.jeffamzn.com/subscription/form">
+          {/* <input type="text" name="name" placeholder="Enter Your Name" /> */}
+          <p><input className="email" type="email" name="email" required placeholder="🚘  Enter your email" /></p>
+          <p><input className="submit" type="submit" value="Apply to drive" /></p>
+          <div className="h-captcha" data-sitekey="db0e76a6-3d84-4378-abe6-88526faac9d2"></div>
+          <input id="816a7" type="hidden" name="l" checked value="816a7657-c4f6-4124-b611-418fdf43be49" />
+          <input type="hidden" name="nonce" />
+      </form>
+      </div>
+      </div>
   );
 }

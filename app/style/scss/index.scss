@@ -1,13 +1,116 @@
 .container{
-    height: 87.5vh;
     display:flex;
-    justify-content: center;
     flex-direction: column;
-    .inner-container{
+    max-height:100vh;
+    img{
+        background:none;
+        margin:1.5rem 0 3rem 0;
+        width: 2.25rem;
+    }
+.inner-content{
         display: flex;
         flex-direction: column;
-        img{
-            max-width: 4.5rem;
-        }
+.text{
+    p:nth-child(1){
+        font-family: medium;
+        font-weight: bold;
+        font-size:3.5rem;
+        padding:0;
+        width:55%;
+    }
+    p:nth-child(2){
+        max-width:54%;
+        font-size:1rem;
+    }
+    p {
+        text-align:left;
+        padding:1.75rem 0 .25rem 0;
+        font-size:1.1rem;
     }
 }
+input{
+    width:28.25rem;
+    padding:.85rem .75rem;
+    font-family: arial;
+    color:#000;
+    border:2px solid #fafafa;
+    border-radius: .2rem;
+    font-size: 1.1rem;  
+    &:focus {
+        outline: none; // Remove default browser outline
+        box-shadow: 0 0 1px 1px #fafafa; // Change glow to black
+        border-color: #fafafa; // Optional: Change the border to black as well
+        caret-color: #ccc; // Set the caret (blinking cursor) color to black
+      }
+}
+.email{
+    margin-top: .35rem;
+    padding-left:.6rem;
+}
+.submit{
+    padding:.75rem .75rem;
+    margin-top: .5rem;
+    margin-bottom:.65rem;
+    background-color: #fafafa;
+    color:#000;
+    &:hover{
+        opacity: .85;
+        cursor: pointer; 
+    }
+}  
+  }
+}
+
+@media screen and (min-width:656px) and (max-width: 900px) {
+    .container{
+    .inner-content{
+        .text{
+            p:nth-child(1){
+                width:65%;
+              }
+              p:nth-child(2){
+                max-width:64%;
+              }
+        }
+        input{
+            width:25.25rem;
+        }
+    }
+ }
+}
+
+@media screen and (min-width:500px) and (max-width: 655px) {
+    .container{
+        .inner-content{
+            .text{
+                p:nth-child(1){
+                  width:85%;
+                }
+                p:nth-child(2){
+                 max-width:84%;
+            }
+            }
+            input{
+                width:25.25rem;
+            }
+        }
+     }
+    }
+
+@media screen and (max-width: 499px) {
+    .container{
+        .inner-content{
+            .text{
+                p:nth-child(1){
+                  width:91%;
+                }
+                p:nth-child(2){
+                 max-width:90%;
+            }
+            }
+            input{
+                width:18rem;
+            }
+        }
+     }
+    }
