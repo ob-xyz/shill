@@ -24,7 +24,7 @@ return (
       <div className="text">
          <p>For drivers who mean business</p>
          <p>Earn more driving premium rides with Shill 💰</p>
-         <p>Drive when you want, make money when you need.</p>
+         <p>Drive when you want, cash out what you need.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           <p><input className="email" type="email" name="email" required placeholder="Enter your email 🚗" /></p>
