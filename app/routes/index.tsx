@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import logo from "~/../public/img/ja.png";
+import vid from "~/../public/img/vid.mp4";
 
 export default function Index() {
   useEffect(() => {
@@ -23,7 +24,6 @@ return (
       <div className="text">
          <p>We're rolling out the red carpet</p>
          <p>Get paid more being a premium driver with Shill.</p>
-         <p></p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           {/* <input type="text" name="name" placeholder="Enter Your Name" /> */}
@@ -34,6 +34,7 @@ return (
           <input type="hidden" name="nonce" />
       </form>
       </div>
+      <video src={vid} autoPlay loop muted playsInline className="vid" />
       </div>
   );
 }
