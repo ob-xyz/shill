@@ -22,8 +22,8 @@ return (
         <img src={logo} />
       <div className="inner-content">
       <div className="text">
-         <p>We're rolling out the red carpet</p>
-         <p>Earn more driving premium rides through Shill ✨</p>
+         <p>For drivers who mean business</p>
+         <p>Earn more driving premium rides with Shill 💰</p>
          <p>Drive when you want, make money when you need.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">

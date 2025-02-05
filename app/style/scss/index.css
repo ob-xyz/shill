@@ -30,7 +30,7 @@
 }
 .container .inner-content .text p:nth-child(2) {
   padding-top: 0.1rem;
-  font-size: 0.835rem;
+  font-size: 0.85rem;
 }
 .container .inner-content .text p {
   max-width: 54%;
@@ -77,11 +77,10 @@
   }
   .container .inner-content .text p:nth-child(2),
   .container .inner-content .text p:nth-child(3) {
-    max-width: 54%;
     font-size: 1rem;
   }
   .container .inner-content .text p:nth-child(2) {
-    font-size: 0.8rem;
+    font-size: 0.85rem;
   }
   .container .inner-content input {
     width: 26.75rem;
@@ -97,11 +96,10 @@
   }
   .container .inner-content .text p:nth-child(2),
   .container .inner-content .text p:nth-child(3) {
-    max-width: 54%;
     font-size: 1rem;
   }
   .container .inner-content .text p:nth-child(2) {
-    font-size: 0.775rem;
+    font-size: 0.85rem;
   }
   .container .inner-content input {
     width: 24.75rem;
@@ -118,8 +116,6 @@
   }
   .container .inner-content .text p:nth-child(2),
   .container .inner-content .text p:nth-child(3) {
-    max-width: 54%;
-    font-size: 0.775rem;
     padding: 0.75rem 0 1.25rem 0;
   }
   .container .inner-content .text p:nth-child(3) {
@@ -140,8 +136,7 @@
   }
   .container .inner-content .text p:nth-child(2),
   .container .inner-content .text p:nth-child(3) {
-    max-width: 54%;
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     padding: 0.75rem 0 1.25rem 0;
   }
   .container .inner-content .text p:nth-child(3) {
