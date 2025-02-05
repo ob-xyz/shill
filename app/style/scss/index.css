@@ -8,12 +8,17 @@
   margin-bottom: 3rem;
   width: 2.5rem;
 }
+.container h1 {
+  color: #fafafa;
+  font-family: medium;
+  font-weight: normal;
+  font-size: 1.5rem;
+}
 .container .vid {
-  width: 20rem;
-  margin-top: 4rem;
+  width: 28rem;
+  margin-top: 2.75rem;
   margin-bottom: 4rem;
-  border-radius: 2rem;
-  border: 6px solid #fafafa;
+  border-radius: 1rem;
 }
 .container .inner-content {
   display: flex;
@@ -75,7 +80,7 @@
     max-width: 64%;
   }
   .container .inner-content input {
-    width: 25.25rem;
+    width: 29rem;
   }
 }
 @media screen and (min-width: 500px) and (max-width: 655px) {
@@ -86,7 +91,7 @@
     max-width: 84%;
   }
   .container .inner-content input {
-    width: 25.25rem;
+    width: 29rem;
   }
 }
 @media screen and (max-width: 499px) {

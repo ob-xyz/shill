@@ -23,7 +23,7 @@ return (
       <div className="inner-content">
       <div className="text">
          <p>We're rolling out the red carpet</p>
-         <p>Get paid more being a premium driver with Shill.</p>
+         <p>Earn more as a driver doing premium rides in a luxury car.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           {/* <input type="text" name="name" placeholder="Enter Your Name" /> */}
