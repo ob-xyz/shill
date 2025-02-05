@@ -153,7 +153,7 @@
 @media screen and (max-width: 602px) {
   .container .vid {
     margin-top: 1.75rem;
-    width: 18rem;
+    width: 19rem;
   }
   .container .inner-content .text p:nth-child(1) {
     width: 100%;
@@ -169,7 +169,7 @@
     display: none;
   }
   .container .inner-content input {
-    width: 18rem;
+    width: 19rem;
   }
 }
 * {
