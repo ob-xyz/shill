@@ -23,10 +23,10 @@ return (
       <div className="inner-content">
       <div className="text">
          <p>We're rolling out the red carpet</p>
-         <p>Earn more as a driver doing premium rides in a luxury car.</p>
+         <p>Earn more driving premium rides through Shill ✨</p>
+         <p>Drive when you want, make money when you need.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
-          {/* <input type="text" name="name" placeholder="Enter Your Name" /> */}
           <p><input className="email" type="email" name="email" required placeholder="Enter your email 🚗" /></p>
           <p><input className="submit" type="submit" value="Apply to drive" /></p>
           <div className="h-captcha" data-sitekey="db0e76a6-3d84-4378-abe6-88526faac9d2"></div>

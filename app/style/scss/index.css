@@ -6,13 +6,7 @@
   background: none;
   margin-top: 1.5rem;
   margin-bottom: 3rem;
-  width: 2.5rem;
-}
-.container h1 {
-  color: #fafafa;
-  font-family: medium;
-  font-weight: normal;
-  font-size: 1.5rem;
+  width: 2.25rem;
 }
 .container .vid {
   width: 28rem;
@@ -28,18 +22,19 @@
   font-family: medium;
   font-weight: bold;
   font-size: 3.5rem;
-  padding: 0;
   width: 55%;
 }
+.container .inner-content .text p:nth-child(3) {
+  font-size: 1.05rem;
+  padding: 2rem 0;
+}
 .container .inner-content .text p:nth-child(2) {
-  max-width: 54%;
-  font-size: 1rem;
-  padding-bottom: 1.75rem;
+  padding-top: 0.1rem;
+  font-size: 0.835rem;
 }
 .container .inner-content .text p {
+  max-width: 54%;
   text-align: left;
-  padding: 1.75rem 0 0.25rem 0;
-  font-size: 1.1rem;
 }
 .container .inner-content input {
   width: 28.25rem;
@@ -72,37 +67,113 @@
   cursor: pointer;
 }
 
-@media screen and (min-width: 656px) and (max-width: 900px) {
+@media screen and (min-width: 800px) and (max-width: 900px) {
   .container .inner-content .text p:nth-child(1) {
     width: 65%;
   }
-  .container .inner-content .text p:nth-child(2) {
-    max-width: 64%;
-  }
-  .container .inner-content input {
-    width: 29rem;
+  .container .inner-content .text p:nth-child(2),
+  .container .inner-content .text p:nth-child(3) {
+    max-width: 54%;
   }
 }
-@media screen and (min-width: 500px) and (max-width: 655px) {
+@media screen and (min-width: 740px) and (max-width: 799px) {
+  .container .vid {
+    width: 25.25rem;
+  }
   .container .inner-content .text p:nth-child(1) {
-    width: 85%;
+    width: 100%;
+    font-size: 3.25rem;
+  }
+  .container .inner-content .text p:nth-child(2),
+  .container .inner-content .text p:nth-child(3) {
+    max-width: 54%;
+    font-size: 1rem;
   }
   .container .inner-content .text p:nth-child(2) {
-    max-width: 84%;
+    font-size: 0.75rem;
   }
   .container .inner-content input {
-    width: 29rem;
+    width: 25.25rem;
   }
 }
-@media screen and (max-width: 499px) {
+@media screen and (min-width: 685px) and (max-width: 739px) {
+  .container .vid {
+    width: 23.5rem;
+  }
   .container .inner-content .text p:nth-child(1) {
-    width: 91%;
+    width: 100%;
+    font-size: 3rem;
+  }
+  .container .inner-content .text p:nth-child(2),
+  .container .inner-content .text p:nth-child(3) {
+    max-width: 54%;
+    font-size: 0.9rem;
   }
   .container .inner-content .text p:nth-child(2) {
-    max-width: 90%;
+    font-size: 0.75rem;
+  }
+  .container .inner-content input {
+    width: 23.5rem;
+  }
+}
+@media screen and (min-width: 570px) and (max-width: 684px) {
+  .container .vid {
+    width: 20rem;
+  }
+  .container .inner-content .text p:nth-child(1) {
+    width: 100%;
+    font-size: 2.5rem;
+  }
+  .container .inner-content .text p:nth-child(2),
+  .container .inner-content .text p:nth-child(3) {
+    max-width: 54%;
+    font-size: 0.8rem;
+  }
+  .container .inner-content .text p:nth-child(2) {
+    font-size: 0.75rem;
+  }
+  .container .inner-content input {
+    width: 20rem;
+  }
+}
+@media screen and (min-width: 515px) and (max-width: 569px) {
+  .container .vid {
+    width: 18rem;
+  }
+  .container .inner-content .text p:nth-child(1) {
+    width: 100%;
+    font-size: 2.25rem;
+  }
+  .container .inner-content .text p:nth-child(2),
+  .container .inner-content .text p:nth-child(3) {
+    max-width: 54%;
+    font-size: 0.75rem;
+  }
+  .container .inner-content .text p:nth-child(2) {
+    font-size: 0.75rem;
   }
   .container .inner-content input {
     width: 18rem;
+  }
+}
+@media screen and (max-width: 514px) {
+  .container .vid {
+    width: 16rem;
+  }
+  .container .inner-content .text p:nth-child(1) {
+    width: 100%;
+    font-size: 2rem;
+  }
+  .container .inner-content .text p:nth-child(2),
+  .container .inner-content .text p:nth-child(3) {
+    max-width: 54%;
+    font-size: 0.65rem;
+  }
+  .container .inner-content .text p:nth-child(2) {
+    font-size: 0.65rem;
+  }
+  .container .inner-content input {
+    width: 16rem;
   }
 }
 

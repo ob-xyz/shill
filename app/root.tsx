@@ -28,7 +28,7 @@ export const links: LinksFunction = () => {
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
   title: "Drive with Shill",
-  description: "Get paid more to do premium rides in a luxury car. Set your own hours. Earn on your own schedule. Get paid more to drive with Shill.",
+  description: "Drive when you want, make money when you need. Set your own hours. You can earn more driving premium rides through Shill.",
   viewport: "width=device-width,initial-scale=1",
 });
 
