@@ -125,7 +125,7 @@
     width: 21rem;
   }
 }
-@media screen and (max-width: 602px) {
+@media screen and (min-width: 430px) and (max-width: 602px) {
   .container .vid {
     margin-top: 1.75rem;
     width: 19rem;
@@ -137,6 +137,53 @@
   .container .inner-content .text p:nth-child(2),
   .container .inner-content .text p:nth-child(3) {
     font-size: 0.75rem;
+    padding: 0.75rem 0 1.25rem 0;
+  }
+  .container .inner-content .text p:nth-child(3) {
+    display: none;
+  }
+  .container .inner-content input {
+    width: 19rem;
+  }
+}
+@media screen and (min-width: 603px) and (max-width: 714px) {
+  .container img {
+    width: 1.75rem;
+  }
+  .container .vid {
+    margin-top: 1.75rem;
+    width: 21rem;
+  }
+  .container .inner-content .text p:nth-child(1) {
+    width: 100%;
+    font-size: 2.5rem;
+  }
+  .container .inner-content .text p:nth-child(2),
+  .container .inner-content .text p:nth-child(3) {
+    padding: 0.75rem 0 1.25rem 0;
+  }
+  .container .inner-content .text p:nth-child(3) {
+    display: none;
+  }
+  .container .inner-content input {
+    width: 21rem;
+  }
+}
+@media screen and (max-width: 429px) {
+  .container img {
+    width: 1.75rem;
+  }
+  .container .vid {
+    margin-top: 1.75rem;
+    width: 19rem;
+  }
+  .container .inner-content .text p:nth-child(1) {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+  .container .inner-content .text p:nth-child(2),
+  .container .inner-content .text p:nth-child(3) {
+    font-size: 0.825rem;
     padding: 0.75rem 0 1.25rem 0;
   }
   .container .inner-content .text p:nth-child(3) {
