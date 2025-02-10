@@ -4,9 +4,9 @@
 }
 .container img {
   background: none;
-  margin-top: 1.5rem;
-  margin-bottom: 3rem;
-  width: 2.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  width: 1.75rem;
 }
 .container .vid {
   width: 28.25rem;
@@ -116,6 +116,7 @@
   }
   .container .inner-content .text p:nth-child(2),
   .container .inner-content .text p:nth-child(3) {
+    font-size: 0.85rem;
     padding: 0.75rem 0 1.25rem 0;
   }
   .container .inner-content .text p:nth-child(3) {
@@ -132,11 +133,11 @@
   }
   .container .inner-content .text p:nth-child(1) {
     width: 100%;
-    font-size: 2rem;
+    font-size: 2.3rem;
   }
   .container .inner-content .text p:nth-child(2),
   .container .inner-content .text p:nth-child(3) {
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     padding: 0.75rem 0 1.25rem 0;
   }
   .container .inner-content .text p:nth-child(3) {
@@ -144,29 +145,6 @@
   }
   .container .inner-content input {
     width: 19rem;
-  }
-}
-@media screen and (min-width: 603px) and (max-width: 714px) {
-  .container img {
-    width: 1.75rem;
-  }
-  .container .vid {
-    margin-top: 1.75rem;
-    width: 21rem;
-  }
-  .container .inner-content .text p:nth-child(1) {
-    width: 100%;
-    font-size: 2.5rem;
-  }
-  .container .inner-content .text p:nth-child(2),
-  .container .inner-content .text p:nth-child(3) {
-    padding: 0.75rem 0 1.25rem 0;
-  }
-  .container .inner-content .text p:nth-child(3) {
-    display: none;
-  }
-  .container .inner-content input {
-    width: 21rem;
   }
 }
 @media screen and (max-width: 429px) {

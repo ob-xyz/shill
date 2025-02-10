@@ -20,6 +20,7 @@ export default function Index() {
 return (
     <div className="container">
         <img src={logo} />
+
       <div className="inner-content">
       <div className="text">
          <p>For drivers who mean business</p>
