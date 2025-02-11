@@ -29,12 +29,6 @@
   margin-bottom: 1.25rem;
   width: 1.75rem;
 }
-.container .vid {
-  width: 28.25rem;
-  margin-top: 2.75rem;
-  margin-bottom: 4rem;
-  border-radius: 1rem;
-}
 .container .inner-content {
   display: flex;
   flex-direction: column;
@@ -43,7 +37,6 @@
   font-family: medium;
   font-weight: bold;
   font-size: 3.5rem;
-  width: 55%;
 }
 .container .inner-content .text p:nth-child(3) {
   font-size: 1.05rem;
@@ -54,11 +47,11 @@
   font-size: 0.85rem;
 }
 .container .inner-content .text p {
-  max-width: 54%;
+  max-width: 70%;
   text-align: left;
 }
 .container .inner-content input {
-  width: 28.25rem;
+  width: 20.25rem;
   padding: 0.85rem 0.75rem;
   font-family: arial;
   color: #000;
@@ -89,9 +82,6 @@
 }
 
 @media screen and (min-width: 773px) and (max-width: 830px) {
-  .container .vid {
-    width: 26.75rem;
-  }
   .container .inner-content .text p:nth-child(1) {
     width: 100%;
     font-size: 3.25rem;
@@ -103,14 +93,8 @@
   .container .inner-content .text p:nth-child(2) {
     font-size: 0.85rem;
   }
-  .container .inner-content input {
-    width: 26.75rem;
-  }
 }
 @media screen and (min-width: 715px) and (max-width: 772px) {
-  .container .vid {
-    width: 24.75rem;
-  }
   .container .inner-content .text p:nth-child(1) {
     width: 100%;
     font-size: 3rem;
@@ -122,15 +106,8 @@
   .container .inner-content .text p:nth-child(2) {
     font-size: 0.85rem;
   }
-  .container .inner-content input {
-    width: 24.75rem;
-  }
 }
 @media screen and (min-width: 603px) and (max-width: 714px) {
-  .container .vid {
-    margin-top: 1.75rem;
-    width: 21rem;
-  }
   .container .inner-content .text p:nth-child(1) {
     width: 100%;
     font-size: 2.5rem;
@@ -143,15 +120,8 @@
   .container .inner-content .text p:nth-child(3) {
     display: none;
   }
-  .container .inner-content input {
-    width: 21rem;
-  }
 }
 @media screen and (min-width: 430px) and (max-width: 602px) {
-  .container .vid {
-    margin-top: 1.75rem;
-    width: 19rem;
-  }
   .container .inner-content .text p:nth-child(1) {
     width: 100%;
     font-size: 2.3rem;
@@ -163,9 +133,6 @@
   }
   .container .inner-content .text p:nth-child(3) {
     display: none;
-  }
-  .container .inner-content input {
-    width: 19rem;
   }
 }
 @media screen and (max-width: 429px) {
@@ -187,9 +154,6 @@
   }
   .container .inner-content .text p:nth-child(3) {
     display: none;
-  }
-  .container .inner-content input {
-    width: 19rem;
   }
 }
 * {
