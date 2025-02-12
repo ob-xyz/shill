@@ -7,6 +7,12 @@
             margin-bottom:1.25rem;
             width:1.75rem;
         }
+        .vid{
+            width:28.25rem;
+            margin-top:2.75rem;
+            margin-bottom:4rem;
+            border-radius: 1rem;
+        }
 .inner-content{
         display: flex;
         flex-direction: column;
@@ -15,6 +21,7 @@
         font-family: medium;
         font-weight: bold;
         font-size:3.5rem;
+        width:55%;
     }
     p:nth-child(3){
         font-size:1.05rem;
@@ -25,12 +32,12 @@
         font-size:.85rem;
     }
     p {
-        max-width:70%;
+        max-width:54%;
         text-align:left;
     }
 }
 input{
-    width:20.25rem;
+    width:28.25rem;
     padding:.85rem .75rem;
     font-family: arial;
     color:#000;
@@ -64,6 +71,9 @@ input{
 
 @media screen and (min-width: 773px) and (max-width: 830px) {
     .container{
+        .vid{
+            width:26.75rem;
+        }
     .inner-content{
         .text{
             p:nth-child(1){
@@ -78,11 +88,17 @@ input{
                     font-size:.85rem;
                 }
         }
+        input{
+            width:26.75rem;
+        }
     }
     }
 }
 @media screen and (min-width: 715px) and (max-width: 772px) {
     .container{
+        .vid{
+            width:24.75rem;
+        }
     .inner-content{
         .text{
             p:nth-child(1){
@@ -97,11 +113,18 @@ input{
                     font-size:.85rem;
                 }
         }
+        input{
+            width:24.75rem;
+        }
     }
     }
 }
 @media screen and (min-width: 603px) and (max-width: 714px) {
     .container{
+        .vid{
+            margin-top:1.75rem;
+            width:21rem;
+        }
     .inner-content{
         .text{
             p:nth-child(1){
@@ -117,11 +140,18 @@ input{
                 display:none;
             }
         }
+        input{
+            width:21rem;
+        }
     }
     }
 }
 @media screen and (min-width: 430px) and (max-width: 602px) {
     .container{
+        .vid{
+            margin-top:1.75rem;
+            width:19rem;
+        }
     .inner-content{
         .text{
             p:nth-child(1){
@@ -136,6 +166,9 @@ input{
                 p:nth-child(3){
                 display:none;
             }
+        }
+        input{
+            width:19rem;
         }
     }
     }
@@ -164,6 +197,9 @@ input{
                 p:nth-child(3){
                 display:none;
             }
+        }
+        input{
+            width:19rem;
         }
     }
     }

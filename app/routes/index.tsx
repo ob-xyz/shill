@@ -23,18 +23,19 @@ return (
 
       <div className="inner-content">
       <div className="text">
-         <p>Welcome to Shill</p>
-         <p>Get answers. Find inspo.</p>
-         <p>Be <strong>more</strong> productive.</p>
+         <p>For drivers who mean business</p>
+         <p>Earn more driving premium rides with Shill 💰</p>
+         <p>Drive when you want, cash out what you need.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
-          <p><input className="email" type="email" name="email" required placeholder="Email" /></p>
-          <p><input className="submit" type="submit" value="Apply to try" /></p>
+          <p><input className="email" type="email" name="email" required placeholder="Enter your email 🚗" /></p>
+          <p><input className="submit" type="submit" value="Apply to drive" /></p>
           <div className="h-captcha" data-sitekey="db0e76a6-3d84-4378-abe6-88526faac9d2"></div>
           <input id="3a575" type="hidden" name="l" checked value="3a575627-dc5a-4d06-b627-05ca13da2e85" />
           <input type="hidden" name="nonce" />
       </form>
       </div>
+      <video src={vid} autoPlay loop muted playsInline className="vid" />
       </div>
   );
 }

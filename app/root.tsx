@@ -27,8 +27,8 @@ export const links: LinksFunction = () => {
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: "Shill",
-  description: "Shill helps you get answers, find inspo and be more productive. Its free to use and easy to try. Just ask Shill.",
+  title: "Make Money by Driving with Shill",
+  description: "Premium rides in luxury cars. Drive when you want, cash out what you need. Set your own hours. You can earn more driving premium rides with Shill.",
   viewport: "width=device-width,initial-scale=1",
 });
 
