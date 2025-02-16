@@ -29,6 +29,18 @@
   margin-bottom: 1.25rem;
   width: 1.75rem;
 }
+.container .line {
+  width: 5%;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #fafafa;
+}
+.container h1 {
+  font-family: medium;
+  font-weight: bold;
+  font-size: 3.5rem;
+  padding: 1.25rem 0 0 0;
+}
 .container .vid {
   width: 28.25rem;
   margin-top: 2.75rem;

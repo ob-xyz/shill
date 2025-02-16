@@ -26,7 +26,7 @@ return (
          <p>For your single family office</p>
          <p>Private banking for families with $25 million in assets to manage</p>
          <p>Grow your assets with your values</p>
-         <p>Handle estate planning, wealth transfer, philanthropy, early/late stage investing, and every single family office need without 2% annual fees</p>
+         <p>Handle estate planning, wealth transfer, philanthropy, early/late stage investing, and every single family office need without 2% annual fees.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           <p><input className="email" type="email" name="email" required placeholder="Enter your email" /></p>
@@ -36,6 +36,9 @@ return (
           <input type="hidden" name="nonce" />
       </form>
       </div>
+      <div className="line"></div>
+      <h1>Private.</h1>
+      <div className="line"></div>
       <video src={vid} autoPlay loop muted playsInline className="vid" />
       </div>
   );
