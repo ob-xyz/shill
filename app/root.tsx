@@ -27,8 +27,8 @@ export const links: LinksFunction = () => {
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: "Make Money by Driving with Shill",
-  description: "Premium rides in luxury cars. Drive when you want, cash out what you need. Set your own hours. You can earn more driving premium rides with Shill.",
+  title: "Grow your assets with your values on Shill",
+  description: "Single family office estate planning, wealth transfer, philanthropy, early-stage or late-stage investing, and every other family office need.",
   viewport: "width=device-width,initial-scale=1",
 });
 

@@ -23,13 +23,14 @@ return (
 
       <div className="inner-content">
       <div className="text">
-         <p>For drivers who mean business</p>
-         <p>Earn more driving premium rides with Shill 💰</p>
-         <p>Drive when you want, cash out what you need.</p>
+         <p>For your single family office</p>
+         <p>Private banking for families with $25 million in assets to manage</p>
+         <p>Grow your assets with your values</p>
+         <p>Handle estate planning, wealth transfer, philanthropy, early/late stage investing, and every single family office need without 2% annual fees</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
-          <p><input className="email" type="email" name="email" required placeholder="Enter your email 🚗" /></p>
-          <p><input className="submit" type="submit" value="Apply to drive" /></p>
+          <p><input className="email" type="email" name="email" required placeholder="Enter your email" /></p>
+          <p><input className="submit" type="submit" value="Apply to join" /></p>
           <div className="h-captcha" data-sitekey="db0e76a6-3d84-4378-abe6-88526faac9d2"></div>
           <input id="3a575" type="hidden" name="l" checked value="3a575627-dc5a-4d06-b627-05ca13da2e85" />
           <input type="hidden" name="nonce" />
