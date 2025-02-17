@@ -19,8 +19,7 @@ export default function Index() {
 
 return (
     <div className="container">
-        <img src={logo} />
-
+      <img src={logo} />
       <div className="inner-content">
       <div className="text">
          <p>For your single family office</p>
@@ -37,7 +36,7 @@ return (
       </form>
       </div>
       <div className="line"></div>
-      <h1>Private.</h1>
+      <h1>Coming soon.</h1>
       <div className="line"></div>
       <video src={vid} autoPlay loop muted playsInline className="vid" />
       </div>

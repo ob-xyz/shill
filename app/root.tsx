@@ -27,8 +27,8 @@ export const links: LinksFunction = () => {
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: "Grow your assets with your values - Shill",
-  description: "Shill is a private banking platform for your single family office. Handle estate planning, wealth transfer, philanthropy, early or late-stage investing, and more.",
+  title: "Shill",
+  description: "Shill is a hardware technology company.",
   viewport: "width=device-width,initial-scale=1",
 });
 
