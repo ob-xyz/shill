@@ -20,25 +20,18 @@ export default function Index() {
 return (
     <div className="container">
       <img src={logo} />
-      <div className="inner-content">
-      <div className="text">
-         <p>For your single family office</p>
-         <p>Private banking for families with $25 million in assets to manage</p>
-         <p>Grow your assets with your values</p>
-         <p>Handle estate planning, wealth transfer, philanthropy, early/late stage investing, and every single family office need without 2% annual fees.</p>
-      </div>
-      <form method="post" action="https://app.jeffamzn.com/subscription/form">
-          <p><input className="email" type="email" name="email" required placeholder="Enter your email" /></p>
-          <p><input className="submit" type="submit" value="Apply to join" /></p>
-          <div className="h-captcha" data-sitekey="db0e76a6-3d84-4378-abe6-88526faac9d2"></div>
-          <input id="3a575" type="hidden" name="l" checked value="3a575627-dc5a-4d06-b627-05ca13da2e85" />
-          <input type="hidden" name="nonce" />
-      </form>
-      </div>
       <div className="line"></div>
-      <h1>Coming soon.</h1>
-      <div className="line"></div>
-      <video src={vid} autoPlay loop muted playsInline className="vid" />
+        <h1>Wanna know more?</h1>
+        <div className="line"></div>
+        <div className="inner-content">
+        <form method="post" action="https://app.jeffamzn.com/subscription/form">
+            <p><input className="email" type="email" name="email" required placeholder="Enter your email" /></p>
+            <p><input className="submit" type="submit" value="Subscribe" /></p>
+            <div className="h-captcha" data-sitekey="db0e76a6-3d84-4378-abe6-88526faac9d2"></div>
+            <input id="3a575" type="hidden" name="l" checked value="3a575627-dc5a-4d06-b627-05ca13da2e85" />
+            <input type="hidden" name="nonce" />
+        </form>
+        </div>
       </div>
   );
 }
