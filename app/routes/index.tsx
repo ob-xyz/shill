@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import logo from "~/../public/img/ja.png";
-import vid from "~/../public/img/vid.mp4";
+import dis from "~/../public/img/dis.png";
 
 export default function Index() {
   useEffect(() => {
@@ -20,6 +20,7 @@ export default function Index() {
 return (
     <div className="container">
       <img src={logo} />
+      <img src={dis} />
       <div className="line"></div>
         <h1>Wanna know more?</h1>
         <div className="line"></div>

@@ -26,8 +26,12 @@
 .container img {
   background: none;
   margin-top: 1.5rem;
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
   width: 2rem;
+}
+.container img:nth-child(2) {
+  padding: 0;
+  width: 7rem;
 }
 .container .line {
   width: 5%;
