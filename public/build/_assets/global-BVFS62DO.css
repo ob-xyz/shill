@@ -26,23 +26,33 @@
 }
 .container img {
   background: none;
-  margin: 1rem 0 2.5rem .5rem;
-  width: 3.5rem;
-  border-radius: 5rem;
+  margin: 2rem 0 1.5rem .5rem;
+  width: 2rem;
+}
+.container .line {
+  width: 7.5%;
+  border: 1px solid #fafafa;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.container h1 {
+  font-family: medium;
+  font-size: 1.75rem;
+  padding: 0rem 0;
 }
 .container .inner-content {
   display: flex;
   flex-direction: column;
 }
 .container .inner-content .text p {
-  padding: .5rem 0 .35rem;
+  padding: .65rem 0 0;
   text-align: center;
-  line-height: 1.75rem;
-  width: 55%;
+  line-height: 1.65rem;
+  width: 85%;
 }
 .container .inner-content .text p:nth-child(1) {
   text-align: center;
-  font-family: bw;
+  font-family: medium;
   font-weight: 700;
   font-size: 1.5rem;
   padding: 0;
@@ -52,10 +62,10 @@
   text-align: left;
 }
 .container .inner-content input {
-  width: 23rem;
+  width: 20rem;
   padding: .85rem .75rem;
   font-family: arial;
-  color: #000;
+  color: #fafafa;
   border: 2px solid black;
   border-radius: .2rem;
   font-size: 1.1rem;
@@ -74,8 +84,8 @@
   padding: .75rem;
   margin-top: .5rem;
   margin-bottom: .65rem;
-  background-color: #000;
-  color: #fff;
+  background-color: #fafafa;
+  color: #000;
 }
 .container .inner-content .submit:hover {
   opacity: .85;
@@ -90,8 +100,8 @@ html,
 body {
   margin: auto;
   width: 100%;
-  height: 100vh;
-  background-color: #fafafa;
+  min-height: 100vh;
+  background: #000;
 }
 body {
   overflow-y: none;
@@ -100,7 +110,7 @@ body {
 main {
   padding: 0;
   margin: 0;
-  background: #fafafa;
+  background: #000;
 }
 img {
   display: block;
@@ -115,9 +125,9 @@ a {
 }
 h1 {
   font-size: 1.35rem;
-  font-family: book;
+  font-family: medium;
   font-weight: 100;
-  color: #121212;
+  color: #fafafa;
   text-decoration: none;
   text-shadow: none;
 }
@@ -125,7 +135,7 @@ h2 {
   font-size: .8rem;
   font-family: medium;
   font-weight: 100;
-  color: #121212;
+  color: #fafafa;
   text-decoration: none;
   text-shadow: none;
 }
@@ -134,13 +144,13 @@ h4,
 h5,
 h6 {
   font-family: medium;
-  color: #121212;
+  color: #fafafa;
   text-shadow: none;
 }
 p {
   font-family: book;
   font-size: 1.1rem;
-  color: #121212;
+  color: #fafafa;
   text-shadow: none;
 }
 ul,
@@ -151,7 +161,7 @@ ol {
 span {
   font-family: bold;
   font-size: 4rem;
-  color: #121212;
+  color: #fafafa;
 }
 button {
   font-size: .8rem;

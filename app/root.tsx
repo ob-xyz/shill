@@ -27,8 +27,8 @@ export const links: LinksFunction = () => {
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: "Progressive Conservative Party of Canada",
-  description: "Make Canada Very Successful.",
+  title: "Shilll",
+  description: "We make technology feel more personal.",
   viewport: "width=device-width,initial-scale=1",
 });
 
