@@ -33,30 +33,16 @@
   width: 7.5%;
   border: 1px solid #fafafa;
   margin-bottom: 2rem;
-  margin-top: 2rem;
-}
-.container h1 {
-  font-family: medium;
-  font-size: 1.75rem;
-  padding: 0rem 0;
+  margin-top: 0.75rem;
 }
 .container .inner-content {
   display: flex;
   flex-direction: column;
 }
 .container .inner-content .text p {
-  padding: 0.65rem 0 0 0;
+  padding: 0rem 0 1rem 0;
   text-align: center;
-  line-height: 1.75rem;
-  width: 65%;
-}
-.container .inner-content .text p:nth-child(1) {
-  text-align: center;
-  font-family: medium;
-  font-weight: bold;
-  font-size: 1.5rem;
-  padding: 0;
-  width: 100%;
+  width: 37.5%;
 }
 .container .inner-content .text .tal {
   text-align: left;
@@ -92,6 +78,14 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 625px) {
+  .container .inner-content .text p {
+    width: 50%;
+  }
+  .container .inner-content input {
+    width: 22rem;
+  }
+}
 * {
   box-sizing: border-box;
   margin: auto;

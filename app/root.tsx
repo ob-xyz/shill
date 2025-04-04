@@ -28,7 +28,7 @@ export const links: LinksFunction = () => {
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
   title: "Shill - Free and Open Source Software",
-  description: "Shill is a creative connection of storytellers, tinkerers, and hobbyist engineers making free and open source software.",
+  description: "Shill is a creative band of storytellers, tinkerers, and hobbyist engineers making free and open source software.",
   viewport: "width=device-width,initial-scale=1",
 });
 

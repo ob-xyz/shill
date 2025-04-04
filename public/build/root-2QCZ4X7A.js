@@ -12,7 +12,7 @@ import {
 } from "/build/_shared/chunk-SBNNL67F.js";
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-FUNRFKYD.css";
+var global_default = "/build/_assets/global-SECH4PWJ.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime());
@@ -32,7 +32,7 @@ var links = () => {
 var meta = () => ({
   charset: "utf-8",
   title: "Shill - Free and Open Source Software",
-  description: "Shill is a creative connection of storytellers, tinkerers, and hobbyist engineers making free and open source software.",
+  description: "Shill is a creative band of storytellers, tinkerers, and hobbyist engineers making free and open source software.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -90,4 +90,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-ILLBHAV6.js.map
+//# sourceMappingURL=/build/root-2QCZ4X7A.js.map

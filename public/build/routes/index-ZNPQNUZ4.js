@@ -39,64 +39,57 @@ function Index() {
         lineNumber: 25,
         columnNumber: 7
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "text", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Shill" }, void 0, false, {
-          fileName: "app/routes/index.tsx",
-          lineNumber: 27,
-          columnNumber: 7
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "We're a creative connection of storytellers, tinkerers, and hobbyist engineers making free and open source software." }, void 0, false, {
-          fileName: "app/routes/index.tsx",
-          lineNumber: 28,
-          columnNumber: 7
-        }, this)
-      ] }, void 0, true, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "text", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "We're a creative band of storytellers, tinkerers, and hobbyist engineers making free and open source software." }, void 0, false, {
+        fileName: "app/routes/index.tsx",
+        lineNumber: 27,
+        columnNumber: 7
+      }, this) }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 26,
         columnNumber: 7
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "line" }, void 0, false, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 30,
+        lineNumber: 29,
         columnNumber: 7
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("form", { method: "post", action: "https://app.jeffamzn.com/subscription/form", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("input", { className: "email", type: "email", name: "email", required: true, placeholder: "Email" }, void 0, false, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 32,
+          lineNumber: 31,
           columnNumber: 16
         }, this) }, void 0, false, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 32,
+          lineNumber: 31,
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("input", { className: "submit", type: "submit", value: "Get in touch" }, void 0, false, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 33,
+          lineNumber: 32,
           columnNumber: 16
         }, this) }, void 0, false, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 33,
+          lineNumber: 32,
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "h-captcha", "data-sitekey": "db0e76a6-3d84-4378-abe6-88526faac9d2" }, void 0, false, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 34,
+          lineNumber: 33,
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("input", { id: "90054", type: "hidden", name: "l", checked: true, value: "900546ea-120f-412d-8fd1-b64b07c8c26c" }, void 0, false, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 35,
+          lineNumber: 34,
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("input", { type: "hidden", name: "nonce" }, void 0, false, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 36,
+          lineNumber: 35,
           columnNumber: 13
         }, this)
       ] }, void 0, true, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 31,
+        lineNumber: 30,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
@@ -113,4 +106,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-AP4T3C7G.js.map
+//# sourceMappingURL=/build/routes/index-ZNPQNUZ4.js.map
