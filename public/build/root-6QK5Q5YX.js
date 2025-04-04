@@ -31,8 +31,8 @@ var links = () => {
 };
 var meta = () => ({
   charset: "utf-8",
-  title: "Shilll",
-  description: "Shilll is a technology company.",
+  title: "Shill",
+  description: "Shill is a creative connection of storytellers, tinkerers, and hobbyist engineers.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -90,4 +90,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-KC4STYQC.js.map
+//# sourceMappingURL=/build/root-6QK5Q5YX.js.map

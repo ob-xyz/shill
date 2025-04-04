@@ -25,7 +25,7 @@ export default function Index() {
       <div className="line"></div>
       <div className="text">
       <p>Shill</p>
-      <p>We're a technology company.</p>
+      <p>We're a creative connection of storytellers, tinkerers, and hobbyist engineers.</p>
       </div>
       <div className="line"></div>
         <form method="post" action="https://app.jeffamzn.com/subscription/form">
