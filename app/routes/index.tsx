@@ -24,7 +24,7 @@ export default function Index() {
       <div className="inner-content">
       <div className="line"></div>
       <div className="text">
-      <p>We're a creative band of storytellers, tinkerers, and hobbyist engineers making free and open source software.</p>
+      <p>A technology company.</p>
       </div>
       <div className="line"></div>
         <form method="post" action="https://app.jeffamzn.com/subscription/form">
