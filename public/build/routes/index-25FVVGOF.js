@@ -39,7 +39,7 @@ function Index() {
         lineNumber: 25,
         columnNumber: 7
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "text", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "JUST A PRIVATE TECHNOLOGY COMPANY." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "text", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Not Your Average Tech Company." }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 27,
         columnNumber: 7
@@ -106,4 +106,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-HDDYOEWG.js.map
+//# sourceMappingURL=/build/routes/index-25FVVGOF.js.map

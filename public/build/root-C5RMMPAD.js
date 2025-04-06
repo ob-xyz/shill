@@ -20,7 +20,7 @@ var links = () => {
   return [
     {
       rel: "icon",
-      href: "/favicon.png",
+      href: "/favicon.ico",
       type: "image/png"
     },
     {
@@ -32,7 +32,7 @@ var links = () => {
 var meta = () => ({
   charset: "utf-8",
   title: "Shilll",
-  description: "Just a private technology company.",
+  description: "Not your average tech company.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -90,4 +90,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-2CEQKJ7Z.js.map
+//# sourceMappingURL=/build/root-C5RMMPAD.js.map
