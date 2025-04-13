@@ -12,7 +12,7 @@ import {
 } from "/build/_shared/chunk-SBNNL67F.js";
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-74VONGB3.css";
+var global_default = "/build/_assets/global-VPWQFEWW.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime());
@@ -32,7 +32,7 @@ var links = () => {
 var meta = () => ({
   charset: "utf-8",
   title: "Shilll",
-  description: "Shilll is a technology company where shit happens.",
+  description: "A technology company.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -90,4 +90,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-5STEI6XR.js.map
+//# sourceMappingURL=/build/root-VYVZUH2E.js.map

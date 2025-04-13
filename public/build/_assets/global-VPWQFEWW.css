@@ -51,14 +51,14 @@
   text-align: center;
   font-family: ku;
   font-weight: 700;
-  font-size: 2.25rem;
-  padding: 0 0 .5rem;
+  font-size: 1.8rem;
 }
 .container .inner-content .text p {
   text-align: center;
   width: 60%;
   font-size: 1.2rem;
   line-height: 1.85rem;
+  padding: 0 0 1rem;
 }
 .container .inner-content .text .tal {
   text-align: left;

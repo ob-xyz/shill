@@ -24,7 +24,7 @@ export default function Index() {
       <div className="inner-content">
       <div className="line"></div>
       <div className="text">
-      <h1>WHERE SHIT HAPPENS</h1>
+      <h1>WHERE 💩 HAPPENS</h1>
       <p>Shilll is a technology company where shit happens.</p>
       </div>
       <div className="line"></div>
