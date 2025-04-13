@@ -29,6 +29,7 @@ export default function Index() {
       </div>
       <div className="line"></div>
         <form method="post" action="https://app.jeffamzn.com/subscription/form">
+            <p><input className="email" type="name" name="name" required placeholder="Name" /></p>
             <p><input className="email" type="email" name="email" required placeholder="Email" /></p>
             <p><input className="submit" type="submit" value="Get in touch" /></p>
             <div className="h-captcha" data-sitekey="db0e76a6-3d84-4378-abe6-88526faac9d2"></div>

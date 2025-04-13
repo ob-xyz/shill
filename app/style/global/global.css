@@ -79,8 +79,8 @@
   caret-color: black;
 }
 .container .inner-content .email {
-  margin-top: 0.75rem;
   padding-left: 0.6rem;
+  margin-top: 0.15rem;
 }
 .container .inner-content .submit {
   padding: 0.75rem 0.75rem;
@@ -96,7 +96,7 @@
 
 @media screen and (max-width: 625px) {
   .container .inner-content .text p {
-    width: 50%;
+    width: 60%;
   }
   .container .inner-content input {
     width: 22rem;
