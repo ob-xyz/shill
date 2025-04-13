@@ -18,12 +18,18 @@
   display: flex;
   flex-direction: column;
 }
-.container .inner-content .text p {
-  padding: 0rem 0 1rem 0;
+.container .inner-content .text h1 {
   text-align: center;
-  width: 100%;
   font-family: ku;
-  font-size: 1.5rem;
+  font-weight: bold;
+  font-size: 2.25rem;
+  padding: 0 0 0.5rem 0;
+}
+.container .inner-content .text p {
+  text-align: center;
+  width: 60%;
+  font-size: 1.2rem;
+  line-height: 1.85rem;
 }
 .container .inner-content .text .tal {
   text-align: left;
