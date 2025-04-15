@@ -12,7 +12,7 @@ import {
 } from "/build/_shared/chunk-SBNNL67F.js";
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-36YOH6GC.css";
+var global_default = "/build/_assets/global-FZOECO4P.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime());
@@ -90,4 +90,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-S4GO6575.js.map
+//# sourceMappingURL=/build/root-UZKP5IWT.js.map

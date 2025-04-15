@@ -51,7 +51,7 @@ function Index() {
           lineNumber: 29,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Shilll is a technology company that makes \u{1F4A9} people actually want." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Shilll is a technology company that makes \u{1F4A9} people want." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 30,
           columnNumber: 7
@@ -176,4 +176,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-CANU2RI6.js.map
+//# sourceMappingURL=/build/routes/index-ZPZWHECH.js.map
