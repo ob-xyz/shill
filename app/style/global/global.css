@@ -34,14 +34,22 @@
 }
 .container img {
   background: none;
-  margin: 2rem 0 1.5rem 0.5rem;
-  width: 1.9rem;
+  margin: 2rem 0 1.5rem 0rem;
+  width: 2.25rem;
 }
 .container .line {
   width: 7.5%;
   border: 1px solid #fafafa;
   margin-bottom: 2rem;
   margin-top: 0.75rem;
+}
+.container h1 {
+  text-align: center;
+  font-family: ku;
+  font-size: 1.8rem;
+}
+.container form {
+  padding-bottom: 1.5rem;
 }
 .container .inner-content {
   display: flex;
@@ -50,15 +58,14 @@
 .container .inner-content .text h1 {
   text-align: center;
   font-family: ku;
-  font-weight: bold;
   font-size: 1.8rem;
 }
 .container .inner-content .text p {
   text-align: center;
   width: 60%;
-  font-size: 1.2rem;
-  line-height: 1.85rem;
-  padding: 0 0 1rem 0;
+  font-size: 1.15rem;
+  line-height: 1.75rem;
+  padding: 0.25rem 0 1rem 0;
 }
 .container .inner-content .text .tal {
   text-align: left;
@@ -92,6 +99,27 @@
 .container .inner-content .submit:hover {
   opacity: 0.85;
   cursor: pointer;
+}
+.container .port {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+.container .port a {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  text-align: center; /* Ensure text inside <p> is centered */
+}
+.container .port a img {
+  width: 4.25rem;
+  border-radius: 0.5rem;
+  max-width: 100%; /* Optional: ensures the image doesn't overflow */
+  margin: 2rem 0 0.65rem 0;
+}
+.container .port p {
+  font-size: 0.9rem;
 }
 
 @media screen and (max-width: 625px) {
@@ -168,7 +196,7 @@ h6 {
 }
 
 p {
-  font-family: "book";
+  font-family: book;
   font-size: 1.1rem;
   color: #fafafa;
   text-shadow: none;

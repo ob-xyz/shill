@@ -1,5 +1,7 @@
 import { useEffect } from "react";
 import logo from "~/../public/img/ja.png";
+import logo2 from "~/../public/img/ja2.png";
+import logo3 from "~/../public/img/ja3.png";
 
 export default function Index() {
   useEffect(() => {
@@ -24,8 +26,8 @@ export default function Index() {
       <div className="inner-content">
       <div className="line"></div>
       <div className="text">
-      <h1>WHERE 💩 HAPPENS</h1>
-      <p>Shilll is a technology company where shit happens.</p>
+      <h1>WE MAKE 💩</h1>
+      <p>Shilll is a technology company that makes 💩 people want.</p>
       </div>
       <div className="line"></div>
         <form method="post" action="https://app.jeffamzn.com/subscription/form">
@@ -36,7 +38,20 @@ export default function Index() {
             <input id="90054" type="hidden" name="l" checked value="900546ea-120f-412d-8fd1-b64b07c8c26c" />
             <input type="hidden" name="nonce" />
         </form>
-      </div>
+        <div className="line"></div>
+        <h1>PORTFOLIO</h1>
+        <div className="port">
+        <a href="https://jeffamzn.com" target="_blank" rel="noopener noreferrer">
+  <img src={logo2} alt="Logo" />
+  <p>Jeffamzn.com</p>
+</a>
+<a href="https://thepoast.com" target="_blank" rel="noopener noreferrer">
+  <img src={logo3} alt="Logo" />
+  <p>ThePoast.com</p>
+
+</a>
+</div>
+      </div>      
       </div>
   );
 }
