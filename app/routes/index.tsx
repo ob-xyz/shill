@@ -26,8 +26,8 @@ export default function Index() {
       <div className="inner-content">
       <div className="line"></div>
       <div className="text">
-      <h1>WE MAKE 💩</h1>
-      <p>Shilll is a technology company that makes 💩 people want.</p>
+      <h1>MAKE 💩 PEOPLE WANT</h1>
+      <p>Shilll is a technology company that makes 💩 people actually want.</p>
       </div>
       <div className="line"></div>
         <form method="post" action="https://app.jeffamzn.com/subscription/form">
@@ -35,7 +35,7 @@ export default function Index() {
             <p><input className="email" type="email" name="email" required placeholder="Email" /></p>
             <p><input className="submit" type="submit" value="Get in touch" /></p>
             <div className="h-captcha" data-sitekey="db0e76a6-3d84-4378-abe6-88526faac9d2"></div>
-            <input id="90054" type="hidden" name="l" checked value="900546ea-120f-412d-8fd1-b64b07c8c26c" />
+            <input id="99104" type="hidden" name="l" checked value="99104eca-ebad-4185-b0d7-dc6821d41d60" />
             <input type="hidden" name="nonce" />
         </form>
         <div className="line"></div>
