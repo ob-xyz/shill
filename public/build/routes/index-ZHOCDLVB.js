@@ -51,7 +51,7 @@ function Index() {
           lineNumber: 29,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Shill is a technology company making things for people like me and you." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Shill is a technology company made for doers like me and you." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 30,
           columnNumber: 7
@@ -176,4 +176,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-3CYV4XEB.js.map
+//# sourceMappingURL=/build/routes/index-ZHOCDLVB.js.map
