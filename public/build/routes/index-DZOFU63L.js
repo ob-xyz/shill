@@ -51,7 +51,15 @@ function Index() {
           lineNumber: 29,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Shill is a small business." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: [
+          "Shill is a ",
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("b", { children: "small" }, void 0, false, {
+            fileName: "app/routes/index.tsx",
+            lineNumber: 30,
+            columnNumber: 21
+          }, this),
+          " business."
+        ] }, void 0, true, {
           fileName: "app/routes/index.tsx",
           lineNumber: 30,
           columnNumber: 7
@@ -176,4 +184,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-3A3OPIDY.js.map
+//# sourceMappingURL=/build/routes/index-DZOFU63L.js.map
