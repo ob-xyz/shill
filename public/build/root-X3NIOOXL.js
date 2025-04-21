@@ -32,7 +32,7 @@ var links = () => {
 var meta = () => ({
   charset: "utf-8",
   title: "Shill",
-  description: "Shill is a technology company.",
+  description: "Shill is a small business.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -90,4 +90,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-R7ZMI6VC.js.map
+//# sourceMappingURL=/build/root-X3NIOOXL.js.map
