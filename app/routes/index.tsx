@@ -26,8 +26,8 @@ export default function Index() {
       <div className="inner-content">
       <div className="line"></div>
       <div className="text">
-      <h1>shilll.</h1>
-      <p>A small business.</p>
+        <h1>GET IN TOUCH</h1>
+        <p>Shilll is a small business.</p>
       </div>
       <div className="line"></div>
         <form method="post" action="https://app.jeffamzn.com/subscription/form">
@@ -42,15 +42,14 @@ export default function Index() {
         <h1>PORTFOLIO</h1>
         <div className="port">
         <a href="https://jeffamzn.com" target="_blank" rel="noopener noreferrer">
-  <img src={logo2} alt="Logo" />
-  <p>Jeffamzn.com</p>
-</a>
-<a href="https://thepoast.com" target="_blank" rel="noopener noreferrer">
-  <img src={logo3} alt="Logo" />
-  <p>ThePoast.com</p>
-
-</a>
-</div>
+        <img src={logo2} alt="Logo" />
+        <p>Jeffamzn.com</p>
+        </a>
+        <a href="https://thepoast.com" target="_blank" rel="noopener noreferrer">
+        <img src={logo3} alt="Logo" />
+        <p>ThePoast.com</p>
+        </a>
+        </div>
       </div>      
       </div>
   );
