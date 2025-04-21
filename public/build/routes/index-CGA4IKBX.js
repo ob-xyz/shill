@@ -46,17 +46,17 @@ function Index() {
         columnNumber: 7
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "text", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "GET IN TOUCH" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "SHILL" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 29,
           columnNumber: 7
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: [
-          "Shill is a ",
+          "A ",
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("b", { children: "small" }, void 0, false, {
             fileName: "app/routes/index.tsx",
             lineNumber: 30,
-            columnNumber: 21
+            columnNumber: 12
           }, this),
           " business."
         ] }, void 0, true, {
@@ -184,4 +184,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-DZOFU63L.js.map
+//# sourceMappingURL=/build/routes/index-CGA4IKBX.js.map

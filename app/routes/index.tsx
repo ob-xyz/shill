@@ -26,8 +26,8 @@ export default function Index() {
       <div className="inner-content">
       <div className="line"></div>
       <div className="text">
-      <h1>GET IN TOUCH</h1>
-      <p>Shill is a <b>small</b> business.</p>
+      <h1>SHILL</h1>
+      <p>A <b>small</b> business.</p>
       </div>
       <div className="line"></div>
         <form method="post" action="https://app.jeffamzn.com/subscription/form">
