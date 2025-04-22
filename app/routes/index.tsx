@@ -27,7 +27,7 @@ export default function Index() {
       <div className="line"></div>
       <div className="text">
         <h1>GET IN TOUCH</h1>
-        <p>Shilll is a small business.</p>
+        <p>Shilll is a small business where every detail matters</p>
       </div>
       <div className="line"></div>
         <form method="post" action="https://app.jeffamzn.com/subscription/form">

@@ -36,6 +36,7 @@
         font-size:1rem;
         line-height: 1.5rem;
         padding:.25rem 0 1.25rem 0;
+        width:50%;
     }
     .tal{
         text-align: left;
@@ -95,21 +96,4 @@ input{
         font-size:.9rem;
       }
   }
-}
-@media screen and (max-width: 625px) {
-    .container{
-    .inner-content{
-        .text{
-            h1{
-                font-size:1.6rem;
-            }
-            p{
-                width:70%;
-            }
-        }
-        input{
-            width:21rem;
-        }
-    }
- }
 }
