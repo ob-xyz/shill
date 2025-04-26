@@ -28,7 +28,7 @@ export const links: LinksFunction = () => {
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
   title: "Shilll",
-  description: "A small business.",
+  description: "A small business where every email matters.",
   viewport: "width=device-width,initial-scale=1",
 });
 
