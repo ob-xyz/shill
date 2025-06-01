@@ -27,8 +27,8 @@ export const links: LinksFunction = () => {
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: "Shill",
-  description: "A small business that sells without selling.",
+  title: "Shilll | Link in Bio with Lead Magnet Machine",
+  description: "Shilll turns your link in bio into a lead magnet machine that converts traffic from Instagram, TikTok, and other social profiles.",
   viewport: "width=device-width,initial-scale=1",
 });
 
