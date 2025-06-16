@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "@remix-run/react";
 import logo from "~/../public/img/ja4.png";
-import vid from "~/../public/img/WebBack.mp4";
+import logo2 from "~/../public/img/ja.png";
 import social1 from "~/../public/img/ja5.png";
 import ss1 from "~/../public/img/stock/stock-1.jpeg";
 import ss2 from "~/../public/img/stock/stock-4.jpg";
@@ -24,7 +24,7 @@ import ss19 from "~/../public/img/stock/4.jpg";
 
 
 
-const rotatingWords = ["idea machine", "podcast host", "startup founder", "solo artist", "one to watch", "big thing"]
+const rotatingWords = ["Make me a catering schedule for my event", "When does my puppy need his first shots?", "Make me a landing page for my newsletter", "What question should I ask her on my podcast?", "What's the best app to track my food calories?", "What's the cheapest VPN service?"]
 
 export default function Index() {
   const [index, setIndex] = useState(0);
@@ -53,50 +53,20 @@ export default function Index() {
   }, []);
 
   return (
-    <div className="container">
-      <video autoPlay loop muted playsInline className="vid" preload="none">
-        <source src={vid} type="video/mp4" />
-      </video>
-      <div className="logo">
-        <img src={logo} />
-      </div>
-      <div className="inner-content">
-        <div className="text">
-          <h4>CUSTOMIZABLE BIO LINK</h4>
-          <h1>
-            Be the next <br /><span className={`${fadeOut ? "fade-out" : "fade-in"}`}>{rotatingWords[index]}</span>
-          </h1>
-          <p>Create a customizable bio link to Shilll everything you do on the internet in a single link. Add clickable posts that turn your link into a lead magnet machine that converts traffic from Instagram, TikTok, and other social media apps.</p>
-        </div>
-    <form
-      method="post"
-      action="https://app.jeffamzn.com/subscription/form"
-      target="_blank"
-    >
-      <div className="input-wrapper">
-        <input
-          className="email"
-          type="email"
-          name="email"
-          required
-          placeholder="Social Media Profile *"
-        />
-        <button className="submit" type="submit">
-          Create your Shilll
-        </button>
-      </div>
-
-      <input
-        type="hidden"
-        name="l"
-        value="99104eca-ebad-4185-b0d7-dc6821d41d60"
-      />
-      <input type="hidden" name="nonce" />
-    </form>
-      </div>
+<div className="container">
+<div className="inner-content">
+  <div className="chatbox">
+    <div className="chatbox-in">
+    <img src={logo2} alt="logo" />
+    <h1 className={fadeOut ? "fade-out" : "fade-in"}>
+      {rotatingWords[index]}
+    </h1>
+  </div>
+  </div>
+</div>
       <div className="inner-content2">
-        <h2>Turn your <span>free bio link</span> into a lead magnet machine</h2>
-            <p>Create a free bio link to Shilll everything you do on the internet in a single link. Add clickable posts of content that help you convert traffic from Instagram, TikTok and other social media profiles.</p>
+        <h2>The <span>personalized AI assistant</span> behind all your ideas</h2>
+        <p>Search and ask questions. Get hyper accurate results. Local and global. Across desktop and mobile.</p>
       </div>
     <div className="inner-content3">
         <div className="box">
@@ -110,24 +80,24 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content4">
-            <h3>Create the one place you call home.</h3>
-            <p>Your Shilll link in bio organizes everything you do on the internet into a single link you can share anywhere.</p>
+            <h3>For everyone from people to enterprise.</h3>
+            <p>Use Shilll to get answers, organize things, complete tasks, or make something new.</p>
       </div>
       <div className="inner-content5">
         <div className="box">
           <img src={ss3} />
-          <h1>Convert traffic where it counts</h1>
-          <p>Link your social profiles, online store, website, and any content you want to share.</p>
+          <h1>Shilll</h1>
+          <p>Shilll is your personal and customizable AI that helps you explore your ideas.</p>
         </div>
         <div className="box">
           <img src={ss11} />
-          <h1>Customize your link in bio</h1>
-          <p>Customize your link in bio with clickable posts of content your audience can subscribe to via email, SMS, or WhatsApp.</p>
+          <h1>MCP</h1>
+          <p>Make your application runtimes run smarter, faster, and more efficient with complete control over every detail.</p>
         </div>
         <div className="box">
           <img src={ss4} />
-          <h1>Grow your Shilll</h1>
-          <p>Make it easy for people to subscribe to your Shilll by sharing your URLs everywhere.</p>
+          <h1>API</h1>
+          <p>Instantly make your applications smarter with enchanced speed, percision, and multilanguage support that helps you connect across the world.</p>
         </div>
       </div>
       <div className="inner-content6">
@@ -137,10 +107,10 @@ export default function Index() {
         </div>
         <div className="inner-content7">
             <div className="text">
-            <h4>CUSTOMIZABLE LINK IN BIO</h4>
-            <h3>Your brand. Your Shilll. Customized Your Way.</h3>
+            <h4>CUSTOMIZABLE AI</h4>
+            <h3>Your ideas. Your Shilll. Customized Your Way.</h3>
             </div>
-            <p>Your brand is not a link — it's an experience. Add clickable posts with different types of content to better understand what your audience is actually interested in.</p>
+            <p>Take Shilll everywhere you go. Ask questions. Stay informed. Be in the know.</p>
       </div>
       <div className="inner-content8">
             <img src={ss9} />
