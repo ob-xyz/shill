@@ -401,12 +401,12 @@ function Index() {
               lineNumber: 139,
               columnNumber: 13
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "mailto:buy@shilll.com", children: "Jeffamzn" }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "https://jeffamzn.com", target: "_blank", rel: "noopener noreferrer", children: "Jeffamzn" }, void 0, !1, {
               fileName: "app/routes/index.tsx",
               lineNumber: 140,
               columnNumber: 13
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react4.Link, { to: "#", children: "The Poast" }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "https://thepoast.com", target: "_blank", rel: "noopener noreferrer", children: "The Poast" }, void 0, !1, {
               fileName: "app/routes/index.tsx",
               lineNumber: 141,
               columnNumber: 13
@@ -453,7 +453,7 @@ function Index() {
             lineNumber: 156,
             columnNumber: 9
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "https://linkedin.com/company/shilll", target: "_blank", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: in_default, alt: "LinkedIn" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "https://linkedin.com/company/signore", target: "_blank", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: in_default, alt: "LinkedIn" }, void 0, !1, {
             fileName: "app/routes/index.tsx",
             lineNumber: 160,
             columnNumber: 11
@@ -494,7 +494,7 @@ function Index() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-SWXXE3EK.js", imports: ["/build/_shared/chunk-WP7OK6OR.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-HBHC7CQO.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-VLTS2SSQ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "90f712ab", hmr: void 0, url: "/build/manifest-90F712AB.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-SWXXE3EK.js", imports: ["/build/_shared/chunk-WP7OK6OR.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-HBHC7CQO.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-FI6PFCLQ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "af72b619", hmr: void 0, url: "/build/manifest-AF72B619.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

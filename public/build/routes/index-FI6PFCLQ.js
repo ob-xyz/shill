@@ -291,12 +291,12 @@ function Index() {
               lineNumber: 139,
               columnNumber: 13
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "mailto:buy@shilll.com", children: "Jeffamzn" }, void 0, false, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "https://jeffamzn.com", target: "_blank", rel: "noopener noreferrer", children: "Jeffamzn" }, void 0, false, {
               fileName: "app/routes/index.tsx",
               lineNumber: 140,
               columnNumber: 13
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "#", children: "The Poast" }, void 0, false, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "https://thepoast.com", target: "_blank", rel: "noopener noreferrer", children: "The Poast" }, void 0, false, {
               fileName: "app/routes/index.tsx",
               lineNumber: 141,
               columnNumber: 13
@@ -343,7 +343,7 @@ function Index() {
             lineNumber: 156,
             columnNumber: 9
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "https://linkedin.com/company/shilll", target: "_blank", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: in_default, alt: "LinkedIn" }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "https://linkedin.com/company/signore", target: "_blank", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: in_default, alt: "LinkedIn" }, void 0, false, {
             fileName: "app/routes/index.tsx",
             lineNumber: 160,
             columnNumber: 11
@@ -385,4 +385,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-VLTS2SSQ.js.map
+//# sourceMappingURL=/build/routes/index-FI6PFCLQ.js.map

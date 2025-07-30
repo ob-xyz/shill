@@ -137,8 +137,8 @@ export default function Index() {
           </div>
           <div className="column">
             <h4>Shilll</h4>
-            <a href="mailto:buy@shilll.com">Jeffamzn</a>
-            <Link to="#">The Poast</Link>
+            <a href="https://jeffamzn.com" target="_blank" rel="noopener noreferrer">Jeffamzn</a>
+            <a href="https://thepoast.com" target="_blank" rel="noopener noreferrer">The Poast</a>
           </div>
         </div>
       </div>
@@ -156,7 +156,7 @@ export default function Index() {
         <a href="https://x.com/shilll" target="_blank" rel="noopener noreferrer">
           <img src={x} alt="X (formerly Twitter)" />
         </a>
-        <a href="https://linkedin.com/company/shilll" target="_blank" rel="noopener noreferrer">
+        <a href="https://linkedin.com/company/signore" target="_blank" rel="noopener noreferrer">
           <img src={linkedin} alt="LinkedIn" />
         </a>
         <a href="mailto:hey@shilll.com">
