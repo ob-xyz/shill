@@ -139,7 +139,6 @@ export default function Index() {
             <h4>Shilll</h4>
             <a href="mailto:buy@shilll.com">Jeffamzn</a>
             <Link to="#">The Poast</Link>
-            <Link to="#">Valleywag</Link>
           </div>
         </div>
       </div>

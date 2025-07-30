@@ -145,13 +145,13 @@ var takeover_ads_default = "/build/_assets/takeover-ads-XZR7ZOND.png";
 var text_ads_default = "/build/_assets/text-ads-3LZ3C6FV.png";
 
 // public/img/in.png
-var in_default = "/build/_assets/in-4S25RRTW.png";
+var in_default = "/build/_assets/in-XDOSVCXC.png";
 
 // public/img/x.png
-var x_default = "/build/_assets/x-J2PMTTZT.png";
+var x_default = "/build/_assets/x-QIZPIJFO.png";
 
 // public/img/email.png
-var email_default = "/build/_assets/email-KANKX45L.png";
+var email_default = "/build/_assets/email-PZRV7BBX.png";
 
 // app/routes/index.tsx
 var import_jsx_dev_runtime3 = require("react/jsx-dev-runtime"), rotatingWords = ["Jeffamzn.", "The Poast."], ads = [
@@ -410,11 +410,6 @@ function Index() {
               fileName: "app/routes/index.tsx",
               lineNumber: 141,
               columnNumber: 13
-            }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react4.Link, { to: "#", children: "Valleywag" }, void 0, !1, {
-              fileName: "app/routes/index.tsx",
-              lineNumber: 142,
-              columnNumber: 13
             }, this)
           ] }, void 0, !0, {
             fileName: "app/routes/index.tsx",
@@ -435,55 +430,55 @@ function Index() {
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "footer-meta", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "https://policies.google.com/privacy?hl=en-US", target: "_blank", rel: "noopener noreferrer", children: "Privacy Policy" }, void 0, !1, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 149,
+            lineNumber: 148,
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "https://policies.google.com/terms?hl=en-US", target: "_blank", rel: "noopener noreferrer", children: "Terms of Service" }, void 0, !1, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 152,
+            lineNumber: 151,
             columnNumber: 9
           }, this)
         ] }, void 0, !0, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 148,
+          lineNumber: 147,
           columnNumber: 9
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "footer-social", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "https://x.com/shilll", target: "_blank", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: x_default, alt: "X (formerly Twitter)" }, void 0, !1, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 158,
+            lineNumber: 157,
             columnNumber: 11
           }, this) }, void 0, !1, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 157,
+            lineNumber: 156,
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "https://linkedin.com/company/shilll", target: "_blank", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: in_default, alt: "LinkedIn" }, void 0, !1, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 161,
+            lineNumber: 160,
             columnNumber: 11
           }, this) }, void 0, !1, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 160,
+            lineNumber: 159,
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "mailto:hey@shilll.com", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: email_default, alt: "Email us" }, void 0, !1, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 164,
+            lineNumber: 163,
             columnNumber: 11
           }, this) }, void 0, !1, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 163,
+            lineNumber: 162,
             columnNumber: 9
           }, this)
         ] }, void 0, !0, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 156,
+          lineNumber: 155,
           columnNumber: 9
         }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 147,
+        lineNumber: 146,
         columnNumber: 7
       }, this)
     ] }, void 0, !0, {
@@ -499,7 +494,7 @@ function Index() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-SWXXE3EK.js", imports: ["/build/_shared/chunk-WP7OK6OR.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-HBHC7CQO.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-53RSD3QW.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "b17a3a8f", hmr: void 0, url: "/build/manifest-B17A3A8F.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-SWXXE3EK.js", imports: ["/build/_shared/chunk-WP7OK6OR.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-HBHC7CQO.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-VLTS2SSQ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "90f712ab", hmr: void 0, url: "/build/manifest-90F712AB.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
