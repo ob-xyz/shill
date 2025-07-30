@@ -5,9 +5,7 @@ import logo from "~/../public/img/ja5.png";
 import promoads from "~/../public/img/promoted-ads.png";
 import takeoverads from "~/../public/img/takeover-ads.png";
 import textads from "~/../public/img/text-ads.png";
-import mainbg from "~/../public/img/mainbg.png";
 import linkedin from "~/../public/img/in.png";
-import ig from "~/../public/img/ig.png";
 import x from "~/../public/img/x.png";
 import email from "~/../public/img/email.png";
 
@@ -83,7 +81,7 @@ export default function Index() {
           <h1>
             Makers of <span className={`${fadeOut ? "fade-out" : "fade-in"}`}>{rotatingWords[index]}</span>
           </h1>
-          <p>Subscribe to stay informed.</p>
+          <p>Sign up to stay informed.</p>
         </div>
     <form
       method="post"
