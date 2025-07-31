@@ -1,8 +1,6 @@
-@import 
-'../global/Fonts.scss',
-'../global/Colors.scss',
-'../global/Buttons.scss',
-'../scss/index.scss';
+@use '../global/Fonts' as *;
+@use '../global/Colors' as *;
+@use '../scss/index' as *;
 
 * {
   box-sizing: border-box;
