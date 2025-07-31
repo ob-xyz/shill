@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
-import { Link, Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 
-import logo from "~/../public/img/ja5.png";
-import linkedin from "~/../public/img/in.png";
-import x from "~/../public/img/x.png";
-import email from "~/../public/img/email.png";
+import logo from "../img/ja5.png";
+import linkedin from "../img/in.png";
+import x from "../img/x.png";
+import email from "../img/email.png";
 
 const rotatingWords = ["Jeffamzn.", "The Poast."];
 export default function Index() {
