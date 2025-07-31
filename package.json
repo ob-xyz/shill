@@ -1,11 +1,12 @@
 {
-  "name": "",
+  "name": "shilll",
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "react-router build --out-dir build",
-    "dev": "react-router dev",
-    "start": "react-router-serve ./build/server/index.js",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "wrangler pages deploy ./dist --project-name=shill-app",
     "typecheck": "react-router typegen && tsc"
   },
   "dependencies": {
@@ -24,9 +25,11 @@
     "@types/node": "^20",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.7.0",
     "tailwindcss": "^4.1.4",
     "typescript": "^5.8.3",
     "vite": "^6.3.3",
-    "vite-tsconfig-paths": "^5.1.4"
+    "vite-tsconfig-paths": "^5.1.4",
+    "wrangler": "^3.57.0"
   }
 }
