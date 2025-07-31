@@ -37,21 +37,23 @@
   display:flex;
   flex-direction:row;
   margin-left:0;
-  margin-bottom:3.5rem;
+  margin-bottom:5rem;
 .inner-content{
       display: flex;
       flex-direction: column;
       margin-left:5rem;
       margin-top:12rem;
 .text{
+    margin-left:0;
     h1{
-        max-width: 65%;
-        margin-left:0;
+     position: absolute;
+    }
+    h1 span{
+      padding-left:.25rem;
     }
     p{
         text-align: left;
-        line-height:1.65rem;
-        padding:1rem 0rem .5rem 0;
+        padding:5.5rem 0rem .75rem 0;
         margin-left:0;
     }
 }
@@ -248,11 +250,6 @@ button.submit {
     .text{
       h1, span{
         font-size:2.895rem;
-        width:100%;
-      }
-      p{
-        padding-top:2.5rem;
-        padding-bottom:.5rem;
       }
     }
 form {
@@ -286,11 +283,6 @@ form {
       h1, 
       span{
         font-size:2.25rem;
-        width:100%;
-      }
-      p{
-        padding-top:2.5rem;
-        padding-bottom:.5rem;
       }
     }
 form {
@@ -347,13 +339,6 @@ form {
       h1, 
       span{
           font-size:1.5975rem;
-      }
-      h1{
-        width:100%;
-      }
-      p{
-        padding-top:2.5rem;
-        padding-bottom:.5rem;
       }
     }
 form {
