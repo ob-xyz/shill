@@ -2,9 +2,6 @@ import { useEffect, useState } from "react";
 import { Link, Outlet } from "react-router-dom";
 
 import logo from "~/../public/img/ja5.png";
-import promoads from "~/../public/img/promoted-ads.png";
-import takeoverads from "~/../public/img/takeover-ads.png";
-import textads from "~/../public/img/text-ads.png";
 import linkedin from "~/../public/img/in.png";
 import x from "~/../public/img/x.png";
 import email from "~/../public/img/email.png";
