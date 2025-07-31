@@ -2,11 +2,12 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import logo from "../assets/img/ja5.png";
+import logo2 from "../assets/img/ja1.png";
 import linkedin from "../assets/img/in.png";
 import x from "../assets/img/x.png";
 import email from "../assets/img/email.png";
 
-const rotatingWords = ["Jeffamzn.", "The Poast."];
+const rotatingWords = ["experiences.", "interactions.", "discussions."];
 export default function Index() {
   const [index, setIndex] = useState(0);
   const [fadeOut, setFadeOut] = useState(false);
@@ -38,7 +39,7 @@ export default function Index() {
   return (
     <div className="container">
       <div className="logo">
-        <img src={logo} alt="Shilll Logo" />
+        <img src={logo2} alt="Shilll Logo" />
       </div>
 
       <div className="content">
@@ -61,8 +62,8 @@ export default function Index() {
                 type="email"
                 name="email"
                 required
-                placeholder="Email Address *"
-                aria-label="Email Address"
+                placeholder="Business Email Address *"
+                aria-label="Business Email Address"
               />
               <button className="submit" type="submit">
                 Subscribe
@@ -84,38 +85,18 @@ export default function Index() {
       <footer className="footer">
         <div className="footer-top">
           <div className="footer-logo">
-            <img src={logo} alt="Shilll Logo" />
+            <img src={logo2} alt="Shilll Logo" />
           </div>
           <div className="footer-links">
             <div className="column">
               <h4>Company</h4>
               <Link to="#">About</Link>
-              <a href="mailto:press@shilll.com">Press</a>
-              <a href="mailto:job@shilll.com">Careers</a>
-            </div>
-            <div className="column">
-              <h4>Ads</h4>
-              <a href="mailto:plan@shilll.com">Request Plan</a>
-              <a
-                href="https://app.jeffamzn.com/campaign/9f60dcc3-107c-4075-94a8-cb5c96a36423/6716369b-5785-4c74-be76-73af2558eebb"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Media Kit
-              </a>
-              <a
-                href="https://app.jeffamzn.com/campaign/b80e7e1c-c9b6-4eee-9809-602e24a0a2f8/6716369b-5785-4c74-be76-73af2558eebb"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Rate Card
-              </a>
+              <Link to="#">Sign Up</Link>
             </div>
             <div className="column">
               <h4>Support</h4>
-              <Link to="#">Getting Started</Link>
-              <Link to="#">Archive</Link>
               <a href="mailto:hey@shilll.com">Contact</a>
+              <a href="mailto:press@shilll.com">Press</a>
             </div>
             <div className="column">
               <h4>Shilll</h4>
