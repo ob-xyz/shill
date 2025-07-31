@@ -7,7 +7,7 @@ import linkedin from "../assets/img/in.png";
 import x from "../assets/img/x.png";
 import email from "../assets/img/email.png";
 
-const rotatingWords = ["experiences.", "interactions.", "discussions."];
+const rotatingWords = ["Jeffamzn.", "The Poast."];
 export default function Index() {
   const [index, setIndex] = useState(0);
   const [fadeOut, setFadeOut] = useState(false);
