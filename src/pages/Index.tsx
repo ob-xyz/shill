@@ -136,7 +136,7 @@ export default function Index() {
             >
               <img src={linkedin} alt="LinkedIn" />
             </a>
-            <a href="mailto:hey@shilll.com">
+            <a href="mailto:hi@shilll.com">
               <img src={email} alt="Email us" />
             </a>
           </div>
