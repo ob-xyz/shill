@@ -1,13 +1,12 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-import logo from "../assets/img/ja5.png";
 import logo2 from "../assets/img/ja1.png";
 import linkedin from "../assets/img/in.png";
 import x from "../assets/img/x.png";
 import email from "../assets/img/email.png";
 
-const rotatingWords = ["Jeffamzn.", "The Poast."];
+const rotatingWords = ["613.273.7555", "hi@shilll.com"];
 export default function Index() {
   const [index, setIndex] = useState(0);
   const [fadeOut, setFadeOut] = useState(false);
@@ -45,9 +44,8 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>Shilll</h4>
+            <h4>CONTACT</h4>
             <h1>
-              Makers of{" "}
               <span className={fadeOut ? "fade-out" : "fade-in"}>
                 {rotatingWords[index]}
               </span>
