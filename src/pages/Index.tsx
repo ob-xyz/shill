@@ -6,11 +6,11 @@ import linkedin from "../assets/img/in.png";
 import x from "../assets/img/x.png";
 import email from "../assets/img/email.png";
 
-const rotatingWords = ["613.273.7555", "hi@shilll.com"];
 export default function Index() {
   const [index, setIndex] = useState(0);
   const [fadeOut, setFadeOut] = useState(false);
-
+  
+  const rotatingWords = ["", ".", "..", "...", "....", ".....", "......", ".......", "........", "........." ];
   // Rotating words effect for header
   useEffect(() => {
     const interval = setInterval(() => {
@@ -44,10 +44,10 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>CONTACT</h4>
+            <h4>WELCOME</h4>
             <h1>
-              <span className={fadeOut ? "fade-out" : "fade-in"}>
-                {rotatingWords[index]}
+              .<span className={fadeOut ? "fade-out" : "fade-in"}>
+               {rotatingWords[index]}
               </span>
             </h1>
             <p>Sign up to stay informed.</p>
@@ -97,12 +97,9 @@ export default function Index() {
               <a href="mailto:press@shilll.com">Press</a>
             </div>
             <div className="column">
-              <h4>Shilll</h4>
+              <h4>Media</h4>
               <a href="https://jeffamzn.com" target="_blank" rel="noopener noreferrer">
                 Jeffamzn
-              </a>
-              <a href="https://thepoast.com" target="_blank" rel="noopener noreferrer">
-                The Poast
               </a>
             </div>
           </div>
