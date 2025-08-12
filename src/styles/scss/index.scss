@@ -12,7 +12,7 @@
     h1, h2, h3, span{
         text-align: left;
         font-family: ku;
-        font-size:4rem;
+        font-size:2.2rem;
     }
     h2 {
         font-size:4.5rem;
@@ -43,21 +43,17 @@
 .text{
     margin-left:0;
     h1{
-     position: absolute;
-    }
-    h1 span{
-      padding-left:.1rem;
-    }
-    p{
-        text-align: left;
-        padding:5.5rem 0rem .75rem 0;
-        margin-left:0;
+        padding:1.5rem 0rem .75rem 0;      
     }
 }
 form {
   display: flex;
   flex-direction: column;
   margin-left: 0;
+  .h-captcha{
+  margin:0;
+  padding-top:.25rem;
+}
 .input-wrapper {
   position: relative;
   width: 28rem;

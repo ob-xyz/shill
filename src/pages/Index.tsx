@@ -24,7 +24,7 @@ export default function Index() {
   }, []);
 
   // Load hCaptcha script once on mount
-  useEffect(() => {
+useEffect(() => {
     const script = document.createElement("script");
     script.src = "https://js.hcaptcha.com/1/api.js";
     script.async = true;
@@ -44,13 +44,9 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>WELCOME</h4>
             <h1>
-              .<span className={fadeOut ? "fade-out" : "fade-in"}>
-               {rotatingWords[index]}
-              </span>
+              Sign up to stay informed.
             </h1>
-            <p>Sign up to stay informed.</p>
           </div>
 
           <form method="post" action="https://app.jeffamzn.com/subscription/form">
@@ -67,6 +63,7 @@ export default function Index() {
                 Subscribe
               </button>
             </div>
+            <div className="h-captcha" data-sitekey="7e96e6a6-eef8-4624-be9c-e468b5a8b230"></div>
 
             <input
               id="6d48f"
