@@ -26,9 +26,8 @@ export default function About() {
       </div>
       <div className="content-aboutus2">
         <h2><span>A gym for your mind.</span></h2>
-        <p>Shilll is building a gym that helps some of the world's most creative minds get in better shape.</p>
+        <p>Shilll helps some of the world's best minds get into better shape.</p>
       </div>
-
 <div className="footer">
   <img src={logo} alt="Logo" />
 <div className="footer-top">
