@@ -1,5 +1,6 @@
 // src/pages/About.jsx
 import { useEffect } from "react";
+
 import logo from "../assets/img/ja1.png";
 import linkedin from "../assets/img/in.png";
 import x from "../assets/img/x.png";
