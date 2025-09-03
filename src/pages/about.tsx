@@ -1,14 +1,14 @@
-import { useEffect, useState } from "react";
+// src/pages/About.jsx
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
-import logo2 from "../assets/img/ja1.png";
+import logo from "../assets/img/ja1.png";
 import linkedin from "../assets/img/in.png";
 import x from "../assets/img/x.png";
 import email from "../assets/img/email.png";
 
-export default function Index() {
-// Load hCaptcha script once on mount
-useEffect(() => {
+export default function About() {
+  useEffect(() => {
     const script = document.createElement("script");
     script.src = "https://js.hcaptcha.com/1/api.js";
     script.async = true;
@@ -20,28 +20,17 @@ useEffect(() => {
   }, []);
 
   return (
-    <div className="container">
+  <div className="content-aboutus">
       <div className="logo">
-        <img src={logo2} alt="Jeffamzn Logo" />
+        <img src={logo} alt="Jeffamzn Logo" />
       </div>
-      <div className="content">
-        <div className="inner-content">
-          <div className="text">
-            <h1>Sign up to stay informed.</h1>
-          </div>
-      <form method="post" action="https://app.jeffamzn.com/subscription/form">
-        <div className="input-wrapper">
-          <input className="email" type="email" name="email" required placeholder="Email Address *" />
-          <button className="submit" type="submit">Subscribe</button>
-        </div>
-        <div className="h-captcha" data-sitekey="7e96e6a6-eef8-4624-be9c-e468b5a8b230"></div>
-        <input id="6d48f" type="hidden" name="l" value="6d48fffe-7d37-4c14-b317-3e4cda33a647" />
-        <input type="hidden" name="nonce" />
-      </form>
-        </div>
+      <div className="content-aboutus2">
+        <h2>What you <span>feed your mind</span> matters.</h2>
+        <p>Shilll is a private company that that helps some of the world's most creative people expand and grow their mind like the muscle it was born to be.</p>
       </div>
+
 <div className="footer">
-  <img src={logo2} alt="Logo" />
+  <img src={logo} alt="Logo" />
 <div className="footer-top">
   <div className="footer-signup">
     <p>Subscribe today.</p>
@@ -59,8 +48,8 @@ useEffect(() => {
 <div className="footer-links">
   <div className="column">
     <h4>Company</h4>
-    <a href="">Home</a>
-    <a href="https://shilll.com/about">About</a>
+    <a href="https://shilll.com">Home</a>
+    <a href="">About</a>
   </div>
   <div className="column">
     <h4>Newsletters</h4>
@@ -92,6 +81,6 @@ useEffect(() => {
   </div>
 </div>
 </div>
-    </div>
+  </div>
   );
 }

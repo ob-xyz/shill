@@ -1,6 +1,8 @@
 @use '../global/Fonts' as *;
 @use '../global/Colors' as *;
 @use '../scss/index' as *;
+@use '../scss/about.scss' as *;
+@use '../scss/ads/advertise-with-us.scss' as *;
 
 * {
   box-sizing: border-box;
