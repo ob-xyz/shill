@@ -25,8 +25,8 @@ export default function About() {
         <img src={logo} alt="Jeffamzn Logo" />
       </div>
       <div className="content-aboutus2">
-        <h2>What you <span>feed your mind</span> matters.</h2>
-        <p>Shilll is a private company that that helps some of the world's most creative people expand and grow their mind like the muscle it was born to be.</p>
+        <h2><span>A gym for your mind.</span></h2>
+        <p>Shilll is building a gym that helps some of the world's most creative minds get in better shape.</p>
       </div>
 
 <div className="footer">
