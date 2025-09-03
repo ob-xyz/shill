@@ -24,8 +24,8 @@ export default function About() {
         <img src={logo} alt="Jeffamzn Logo" />
       </div>
       <div className="content-aboutus2">
-        <h2><span>A gym for your mind.</span></h2>
-        <p>Shilll helps some of the world's best minds get into better shape.</p>
+        <h2>A <span>private</span> company.</h2>
+        <p>Thank you.</p>
       </div>
 <div className="footer">
   <img src={logo} alt="Logo" />
