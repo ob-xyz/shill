@@ -38,6 +38,7 @@ img {
 a {
   text-decoration: none;
   font-family: 'book';
+  line-height: normal;
 }
 
 h1 {
@@ -47,6 +48,7 @@ h1 {
   color: #fff;
   text-decoration: none;
   text-shadow: none;
+  line-height: normal;
 }
 
 h2 {
@@ -56,6 +58,7 @@ h2 {
   color: #fff;
   text-decoration: none;
   text-shadow: none;
+  line-height: normal;
 }
 
 h3,
@@ -65,6 +68,7 @@ h6 {
   font-family: 'medium';
   color: #fff;
   text-shadow: none;
+  line-height: normal;
 }
 
 p {
@@ -72,6 +76,7 @@ p {
   font-size: 1.1rem;
   color: #fff;
   text-shadow: none;
+  line-height: normal;
 }
 
 ul,
@@ -84,10 +89,12 @@ span {
   font-family: bold;
   font-size: 4rem;
   color: #fff;
+  line-height: normal;
 }
 
 button {
   font-size: 0.8rem;
   font-family: medium;
   font-weight: 100;
+  line-height: normal;
 }
