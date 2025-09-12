@@ -59,7 +59,7 @@ useEffect(() => {
   <div className="column">
     <h4>Company</h4>
     <a href="">Home</a>
-    <a href="https://shilll.com/about">About</a>
+    <a href="https://shilll.com/about">Contact</a>
   </div>
   <div className="column">
     <h4>Newsletters</h4>

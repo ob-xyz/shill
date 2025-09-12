@@ -25,7 +25,9 @@ export default function About() {
       </div>
       <div className="content-aboutus2">
         <h2>A <span>private</span> company.</h2>
-        <p>Thank you.</p>
+        <p>161 Bobs Lake Lane 11</p>
+        <p>Tay Valley, Ontario</p>
+        <p>613-273-7555</p>
       </div>
 <div className="footer">
   <img src={logo} alt="Logo" />
@@ -47,7 +49,7 @@ export default function About() {
   <div className="column">
     <h4>Company</h4>
     <a href="https://shilll.com">Home</a>
-    <a href="">About</a>
+    <a href="">Contact</a>
   </div>
   <div className="column">
     <h4>Newsletters</h4>
