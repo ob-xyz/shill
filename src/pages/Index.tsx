@@ -43,7 +43,7 @@ useEffect(() => {
   <img src={logo2} alt="Logo" />
 <div className="footer-top">
   <div className="footer-signup">
-    <p>Subscribe today.</p>
+    <p>Subscribe to know more.</p>
     <form method="post" action="https://app.jeffamzn.com/subscription/form">
       <div className="input-wrapper">
         <input className="email" type="email" name="email" required placeholder="Email Address *" />
