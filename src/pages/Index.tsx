@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 import logo2 from "../assets/img/ja1.png";
 import linkedin from "../assets/img/in.png";

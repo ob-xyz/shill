@@ -21,10 +21,10 @@ export default function About() {
   return (
   <div className="content-aboutus">
       <div className="logo">
-        <img src={logo} alt="Jeffamzn Logo" />
+        <img src={logo} alt="Shilll Logo" />
       </div>
       <div className="content-aboutus2">
-        <h2>A <span>private</span> company.</h2>
+        <h2>A <span>private</span> platform.</h2>
         <p>161 Bobs Lake Lane 11</p>
         <p>Tay Valley, Ontario</p>
         <p>613-273-7555</p>
