@@ -204,7 +204,7 @@ font-size: 0.825rem;
 }
 }
 
-@media (min-width: 660px) and (max-width: 874px) {
+@media (min-width: 660px) and (max-width: 1020px) {
 .content-aboutus{
   .logo{
     margin-left:1rem;
@@ -225,6 +225,7 @@ font-size: 0.825rem;
 .footer {
   padding-left:2.5rem;
   padding-right:2.5rem;
+  padding-bottom:.5rem;
   .footer-top {
         flex-direction: column-reverse;
         align-items: left;
@@ -287,6 +288,7 @@ font-size: 0.825rem;
 .footer {
   padding-left:1.25rem;
   padding-right:1.25rem;
+  padding-bottom:.5rem;
   .footer-top {
         flex-direction: column-reverse;
         align-items: left;

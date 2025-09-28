@@ -1,18 +1,38 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 import logo2 from "../assets/img/ja1.png";
 import linkedin from "../assets/img/in.png";
 import x from "../assets/img/x.png";
 import email from "../assets/img/email.png";
 
+const rotatingWords = [" software", " privacy", " compute"];
+
 export default function Index() {
-// Load hCaptcha script once on mount
-useEffect(() => {
+  const [index, setIndex] = useState(0);
+  const [fadeOut, setFadeOut] = useState(false);
+
+
+  // Word rotation effect (unchanged)
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setFadeOut(true);
+      setTimeout(() => {
+        setIndex((prev) => (prev + 1) % rotatingWords.length);
+        setFadeOut(false);
+      }, 300);
+    }, 2500);
+    return () => clearInterval(interval);
+  }, []);
+
+    useEffect(() => {
+    // Dynamically load the hCaptcha script
     const script = document.createElement("script");
     script.src = "https://js.hcaptcha.com/1/api.js";
     script.async = true;
     script.defer = true;
     document.body.appendChild(script);
+
+    // Clean up script on component unmount
     return () => {
       document.body.removeChild(script);
     };
@@ -21,12 +41,19 @@ useEffect(() => {
   return (
     <div className="container">
       <div className="logo">
-        <img src={logo2} alt="Jeffamzn Logo" />
+        <img src={logo2} alt="Shilll Logo" />
       </div>
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h1>Sign up to stay informed.</h1>
+            <h4>Shilll</h4>
+            <h1>
+              Highly autonomous
+              <span className={`${fadeOut ? "fade-out" : "fade-in"}`}>
+                {rotatingWords[index]}
+              </span>
+            </h1>
+          <p>Sign up to stay informed.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
