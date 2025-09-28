@@ -31,7 +31,7 @@ useEffect(() => {
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
           <input className="email" type="email" name="email" required placeholder="Email Address *" />
-          <button className="submit" type="submit">Subscribe</button>
+          <button className="submit" type="submit">Let's do it</button>
         </div>
         <div className="h-captcha" data-sitekey="7e96e6a6-eef8-4624-be9c-e468b5a8b230"></div>
         <input id="6d48f" type="hidden" name="l" value="6d48fffe-7d37-4c14-b317-3e4cda33a647" />
@@ -43,11 +43,11 @@ useEffect(() => {
   <img src={logo2} alt="Logo" />
 <div className="footer-top">
   <div className="footer-signup">
-    <p>Subscribe to know more.</p>
+    <p>Screw it, let's do it.</p>
     <form method="post" action="https://app.jeffamzn.com/subscription/form">
       <div className="input-wrapper">
         <input className="email" type="email" name="email" required placeholder="Email Address *" />
-        <button className="submit" type="submit">Sign up</button>
+        <button className="submit" type="submit">Let's do it</button>
       </div>
       <div className="h-captcha" data-sitekey="7e96e6a6-eef8-4624-be9c-e468b5a8b230"></div>
       <input id="6d48f" type="hidden" name="l" value="6d48fffe-7d37-4c14-b317-3e4cda33a647" />
@@ -58,8 +58,9 @@ useEffect(() => {
 <div className="footer-links">
   <div className="column">
     <h4>Company</h4>
-    <a href="">Home</a>
-    <a href="https://shilll.com/about">Contact</a>
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="mailto:chris@shilll.com">Contact</a>
   </div>
   <div className="column">
     <h4>Newsletters</h4>

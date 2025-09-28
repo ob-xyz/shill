@@ -24,7 +24,7 @@ export default function About() {
         <img src={logo} alt="Shilll Logo" />
       </div>
       <div className="content-aboutus2">
-        <h2>A <span>private</span> platform.</h2>
+        <h2>Humans making <span>content</span> for humans.</h2>
         <p>161 Bobs Lake Lane 11</p>
         <p>Tay Valley, Ontario</p>
         <p>613-273-7555</p>
@@ -48,8 +48,9 @@ export default function About() {
 <div className="footer-links">
   <div className="column">
     <h4>Company</h4>
-    <a href="https://shilll.com">Home</a>
-    <a href="">Contact</a>
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="mailto:chris@shilll.com">Contact</a>
   </div>
   <div className="column">
     <h4>Newsletters</h4>
