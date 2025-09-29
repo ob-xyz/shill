@@ -24,7 +24,6 @@ export default function About() {
         <img src={logo} alt="Shilll Logo" />
       </div>
       <div className="content-aboutus2">
-        <h2>Highly <span>autonomous</span> software</h2>
         <h4>Contact</h4>
         <p>161 Bobs Lake Lane 11</p>
         <p>Tay Valley, Ontario</p>
@@ -64,10 +63,10 @@ export default function About() {
 
 <div className="footer-bottom">
   <div className="footer-meta">
-  <a href="https://policies.google.com/privacy?hl=en-US" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.apple.com/legal/privacy/en-ww/" target="_blank" rel="noopener noreferrer">
     Privacy Policy
   </a>
-  <a href="https://policies.google.com/terms?hl=en-US" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.apple.com/ca/legal/internet-services/itunes/ca/terms.html" target="_blank" rel="noopener noreferrer">
     Terms of Service
   </a>
   </div>

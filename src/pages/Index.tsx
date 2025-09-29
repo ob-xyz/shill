@@ -1,29 +1,11 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 import logo2 from "../assets/img/ja1.png";
 import linkedin from "../assets/img/in.png";
 import x from "../assets/img/x.png";
 import email from "../assets/img/email.png";
 
-const rotatingWords = [" software", " privacy", " compute"];
-
 export default function Index() {
-  const [index, setIndex] = useState(0);
-  const [fadeOut, setFadeOut] = useState(false);
-
-
-  // Word rotation effect (unchanged)
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setFadeOut(true);
-      setTimeout(() => {
-        setIndex((prev) => (prev + 1) % rotatingWords.length);
-        setFadeOut(false);
-      }, 300);
-    }, 2500);
-    return () => clearInterval(interval);
-  }, []);
-
     useEffect(() => {
     // Dynamically load the hCaptcha script
     const script = document.createElement("script");
@@ -46,13 +28,8 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>Shilll</h4>
-            <h1>
-              Highly autonomous
-              <span className={`${fadeOut ? "fade-out" : "fade-in"}`}>
-                {rotatingWords[index]}
-              </span>
-            </h1>
+          <h4>Privacy. It's a human right.</h4>
+          <h2><span>Status quo breaking software</span> for humans who believe anything is possible, even privacy.</h2>
           <p>Sign up to stay informed.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
@@ -99,10 +76,10 @@ export default function Index() {
 
 <div className="footer-bottom">
   <div className="footer-meta">
-  <a href="https://policies.google.com/privacy?hl=en-US" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.apple.com/legal/privacy/en-ww/" target="_blank" rel="noopener noreferrer">
     Privacy Policy
   </a>
-  <a href="https://policies.google.com/terms?hl=en-US" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.apple.com/ca/legal/internet-services/itunes/ca/terms.html" target="_blank" rel="noopener noreferrer">
     Terms of Service
   </a>
   </div>
