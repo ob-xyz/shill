@@ -30,7 +30,7 @@ export default function Index() {
           <div className="text">
           <h4>Privacy. It's a human right.</h4>
           <h2><span>Status quo breaking software</span> for humans who believe anything is possible, even privacy.</h2>
-          <p>Sign up to stay informed.</p>
+          <p>Sign up if you believe privacy is still possible.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
