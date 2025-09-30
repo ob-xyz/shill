@@ -24,11 +24,10 @@ export default function About() {
         <img src={logo} alt="Shilll Logo" />
       </div>
       <div className="content-aboutus2">
-        <h4>Contact</h4>
+        <h4>Shilll</h4>
         <p>161 Bobs Lake Lane 11</p>
         <p>Tay Valley, Ontario</p>
-        <p>chris@shilll.com</p>
-        <p>613-273-7555</p>
+        <p>(613) 273-7555</p>
       </div>
 <div className="footer">
   <img src={logo} alt="Logo" />

@@ -28,9 +28,9 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-          <h4>Privacy. It's a human right.</h4>
-          <h2><span>Status quo breaking software</span> for those who believe anything is possible, even privacy.</h2>
-          <p>Sign up if you believe privacy is still possible.</p>
+          <h4>Software. That's secure.</h4>
+          <h2>Status quo breaking <span>software.</span></h2>
+          <p>Sign up to stay informed.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
