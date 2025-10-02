@@ -28,8 +28,8 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-          <h4>IDEAS TOO URGENT TO SPEEDRUN</h4>
-          <h2>We are a <span>Canadian</span> company that develops and builds new companies for the long term.<br /><br/>Working together, our companies accelerate technology to drive progress across areas that actually matter to society.</h2>
+          <h4>BID. BUY. SHILLL.</h4>
+          <h2>We're giving <span>power to the people</span> willing to put a price tag on their desires.</h2>
           <p>Sign up to stay informed.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
