@@ -1,66 +1,22 @@
-.content-aboutus{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    margin:0;
-    padding:0;
-    b{
-        font-family:'bold';
-    }
-    .logo{
 
-        background:none;
-        margin:1.25rem 0 0 0rem;
-        width: 2.25rem;
-      img{
-        border-radius: 10rem;
-      }
-    }
-    h1, h2, h3, span{
-        text-align: left;
-        font-family: ku;
-        font-size:4rem;
-    }
-    h2 {
-        font-size:rem;
-        font-family: kl;
-    }
-    h3 {
-        font-size:2.75rem;
-    }
-    h4{
-      font-family: kl;
-      font-size:1.4rem;
-      }
-    p{
-        font-family:kl;
-        font-size:1.2rem;
-    }
-.content-aboutus2{
-  margin-top:8rem;
-h4 {
-    text-align: center;
-padding:0;
-  font-size: 1.5rem;
-  margin: 0;
-  color: #71717A;
-}
-}
 .footer {
   width: 100%;
-  padding: 6rem 5rem 3rem 5rem;
+  padding: 10rem 5rem 3rem 5rem;
   box-sizing: border-box;
-  img {
-        margin:0;
-        width: 2rem;
-        border-radius:10rem;
-        padding-bottom:2rem;
-      }
+    h1{
+      font-size:14.4rem;
+      font-family: ku;
+    }
+    p{
+        font-family:kl;
+        font-size:1.3rem;
+        margin-left:0;
+    }
   .footer-top {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    border-bottom: 1px solid #dcdcdc;
+    border-bottom: 1px solid #333;
     padding-bottom: 4rem;
     margin-bottom: 2rem;
 
@@ -69,25 +25,25 @@ padding:0;
     align-items: flex-start;
     flex-direction: column;
     margin:0;
-      p{
+      h1{
         margin:0;
         padding-top:2rem;
         padding-bottom:.5rem;
         font-family: 'ku';
-        font-size:2.25rem;
+        font-size:2.5rem;
       }
   form {
   display: flex;
   flex-direction: column;
   margin-left: 0;
-  margin-top:1.25rem;
+  margin-top:.45rem;
   .h-captcha{
   margin:0;
   padding-top:.25rem;
 }
 .input-wrapper {
   position: relative;
-  width: 29.75rem;
+  width: 25rem;
 }
 input.email {
   width: 100%;
@@ -129,13 +85,15 @@ button.submit {
 .footer-links {
   display: flex;
   margin:0 0;
-  padding-top:3.5rem;
+  padding-top:3.75rem;
+
 .column {
 display: flex;
 flex-direction: column;
 padding: 0 2rem;
 margin-top: 0;
-
+padding-right:0;
+margin-left:2rem;
 h4,
 a {
 text-align: left;
@@ -149,12 +107,12 @@ font-size: 0.85rem;
 }
 
 a {
-color: #fafafa;
+color: #000;
 text-decoration: none;
 margin-bottom: 0.75rem;
 font-size: 0.825rem;
 &:hover {
-  color: #d1d1d1;
+  color: #808182;
   text-decoration: underline;
 }
 }
@@ -170,12 +128,12 @@ font-size: 0.825rem;
       flex-wrap: wrap;
       gap: 1.25rem;
       margin-left:0;
-      margin-top:0rem;
+      margin-top:0;
       a {
         font-size:.825rem;
-        color: #fafafa;
+        color: #000;
           &:hover {
-          color: #d1d1d1;
+          color: #808182;
           text-decoration: underline;
         }
       }
@@ -185,49 +143,31 @@ font-size: 0.825rem;
       display: flex;
       gap: 1.25rem;
       margin-right:0;
+      padding-right:0;
       img {
         width:1.15rem;
         border-radius: 0;
+        margin-left:0;
       }
     }
   }
 }
-}
-
-@media (min-width: 660px) and (max-width: 1020px) {
-.content-aboutus{
-  .logo{
-    margin-left:1rem;
-  }
-.content-aboutus2{
-  h2{
-    padding-top:3.5rem;
-    font-size:1.75rem;
-    }
-    span{
-      font-size:1.75rem;
-    }
-  p {
-    font-size:1.25rem;
-  }
-}
-
+@media (min-width: 660px) and (max-width: 930px) {
 .footer {
   padding-left:2.5rem;
   padding-right:2.5rem;
-  padding-bottom:.5rem;
+  padding-top:2.5rem;
+        h1{
+      font-size:7.75rem;
+    }
   .footer-top {
         flex-direction: column-reverse;
         align-items: left;
     .footer-signup {
       padding-top:1rem;
-      p{
-        font-size:1.75rem;
-        padding-bottom: .25rem;
-      }
       form{
       .input-wrapper{
-          width: 31.25rem;
+          width: 25rem;
       }
       }
   }
@@ -244,7 +184,7 @@ font-size: 0.825rem;
 }
 .footer-bottom {
       padding-bottom:1.25rem;
-     .footer-meta {
+    .footer-meta {
       gap: .75rem;
     }
     .footer-social {
@@ -254,55 +194,50 @@ font-size: 0.825rem;
       }
     }
   }
-}
 }
 }
 }
 @media (max-width: 659px) {
-.content-aboutus{
-  .logo{
-    margin-left:1rem;
-  }
-.content-aboutus2{
-  p {
-    font-size:1.25rem;
-  }
-}
 .footer {
-  padding-left:1.25rem;
-  padding-right:1.25rem;
-  padding-bottom:.5rem;
+  padding:1.25rem .5rem 1.25rem .5rem;
+      h1{
+      font-size:6.5rem;
+    }
   .footer-top {
         flex-direction: column-reverse;
         align-items: left;
     .footer-signup {
       padding-top:1rem;
+      h1{
+        font-size:2rem;
+      }
       p{
-        font-size:1.6rem;
-        padding-bottom: .25rem;
+        font-size:1rem;
       }
       form{
       .input-wrapper{
-          width: 19rem;
+          width: 22.5rem;
       }
       }
   }
+
 .footer-links {
       flex-direction: column;
-      padding-top:.75rem;
+      padding-top:1.25rem;
 .column {
     margin:0;
     padding:0;
 }
 .column:nth-child(2){
-  padding-top:.75rem;
+  padding-top:.5rem;
+}
 }
 }
 .footer-bottom {
       padding-bottom:1.25rem;
-     .footer-meta {
-      gap: .75rem;
-    }
+    .footer-meta {
+      gap: .5rem;
+      }
     .footer-social {
       gap:1.25rem;
       img {
@@ -312,5 +247,4 @@ font-size: 0.825rem;
   }
 }
 }
-}
-}
+

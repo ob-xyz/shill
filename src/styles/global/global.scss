@@ -2,6 +2,7 @@
 @use '../global/Colors' as *;
 @use '../scss/index' as *;
 @use '../scss/about' as *;
+@use '../scss/components/footer.scss' as *;
 
 * {
   box-sizing: border-box;
@@ -17,13 +18,13 @@ body {
 body {
   overflow-y: none;
   overflow-x: hidden;
-  background: #02090A;
+  background: #F8F7F5;
 }   
 
 main{
   padding:0;
   margin:0;
-  background:#fff;
+  background:#02090A;
 }
 
 img {
@@ -44,7 +45,7 @@ h1 {
   font-size: 1.35rem;
   font-family: 'medium';
   font-weight: 100;
-  color: #fff;
+  color: #02090A;
   text-decoration: none;
   text-shadow: none;
   line-height: normal;
@@ -54,7 +55,7 @@ h2 {
   font-size: 0.8rem;
   font-family: 'medium';
   font-weight: 100;
-  color: #fff;
+  color: #02090A;
   text-decoration: none;
   text-shadow: none;
   line-height: normal;
@@ -65,7 +66,7 @@ h4,
 h5,
 h6 {
   font-family: 'medium';
-  color: #fff;
+  color: #02090A;
   text-shadow: none;
   line-height: normal;
 }
@@ -73,7 +74,7 @@ h6 {
 p {
   font-family: book;
   font-size: 1.1rem;
-  color: #fff;
+  color: #02090A;
   text-shadow: none;
   line-height: normal;
 }
@@ -87,7 +88,7 @@ ol {
 span {
   font-family: bold;
   font-size: 4rem;
-  color: #fff;
+  color: #02090A;
   line-height: normal;
 }
 
