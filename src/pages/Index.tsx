@@ -28,8 +28,8 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-          <h4>SHILLL</h4>
-          <h2><span>So what's your take?</span></h2>
+          <h4>SO WHAT'S YOUR TAKE?</h4>
+          <h2><span>Trade on your takes.</span></h2>
           <p>Sign up to stay informed.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
