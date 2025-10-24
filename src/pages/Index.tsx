@@ -1,9 +1,7 @@
 import { useEffect } from "react";
 
 import logo2 from "../assets/img/shilll.png";
-import linkedin from "../assets/img/in.png";
-import x from "../assets/img/x.png";
-import email from "../assets/img/email.png";
+
 
 export default function Index() {
     useEffect(() => {
@@ -28,8 +26,8 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-          <h4>SO WHAT'S YOUR TAKE?</h4>
-          <h2><span>Trade on your takes.</span></h2>
+          <h4>TRADE YOUR TAKES</h4>
+          <h2><span>Shilll is the world's tallest prediction market.</span></h2>
           <p>Sign up to stay informed.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
