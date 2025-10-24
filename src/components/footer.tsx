@@ -1,8 +1,7 @@
 import { Link } from "react-router-dom";
-import linkedin from "../assets/img/email.png";
-import x from "../assets/img/email.png";
+import linkedin from "../assets/img/in.png";
+import x from "../assets/img/x.png";
 import email from "../assets/img/email.png";
-import ig from "../assets/img/email.png"; // make sure this file exists
 
 export default function Footer() {
   return (
@@ -46,16 +45,13 @@ export default function Footer() {
           </a>
         </div>
         <div className="footer-social">
-          <a href="https://instagram.com/jeffamzn" target="_blank" rel="noopener noreferrer">
-            <img src={ig} alt="Instagram" />
-          </a>
-          <a href="https://x.com/jeffamzn" target="_blank" rel="noopener noreferrer">
+          <a href="https://x.com/tradeyourtakes" target="_blank" rel="noopener noreferrer">
             <img src={x} alt="X (formerly Twitter)" />
           </a>
-          <a href="https://linkedin.com/company/jeffamzn" target="_blank" rel="noopener noreferrer">
+          <a href="https://linkedin.com/company/signore" target="_blank" rel="noopener noreferrer">
             <img src={linkedin} alt="LinkedIn" />
           </a>
-          <a href="mailto:hey@jeffamzn.com">
+          <a href="mailto:chris@shilll.com">
             <img src={email} alt="Email us" />
           </a>
         </div>
