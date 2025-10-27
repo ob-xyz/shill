@@ -26,9 +26,9 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-          <h4>TRADE YOUR TAKES ON SHILLL</h4>
-          <h2><span>The world's loudest prediction market.</span></h2>
-          <p>Sign up today to trade your takes on elections, news, tech, culture, sports, and entertainment.</p>
+          <h4>BET ON EVENTS, NOT ON PARLAYS</h4>
+          <h2><span>The prediction market for people who hate prediction markets.</span></h2>
+          <p>We're working hard to be available soon for people in the US — sign up to stay informed.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
