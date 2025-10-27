@@ -26,7 +26,7 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-          <h4>BET ON EVENTS, NOT ON PARLAYS</h4>
+          <h4>BET ON EVENTS, NOT PARLAYS</h4>
           <h2><span>The prediction market for people who hate prediction markets.</span></h2>
           <p>We're working hard to be available soon for people in the US — sign up to stay informed.</p>
           </div>
