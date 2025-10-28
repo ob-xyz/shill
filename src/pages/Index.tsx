@@ -26,9 +26,9 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-          <h4>BET ON EVENTS, NOT PARLAYS</h4>
-          <h2><span>The prediction market for people who hate prediction markets.</span></h2>
-          <p>We're working hard to be available soon for people in the US — sign up to stay informed.</p>
+          <h4>YOUR FAVE PREDICTION MARKET</h4>
+          <h2><span>We're the prediction market for people who hate prediction markets.</span></h2>
+          <p>Every day of the week we work hard to make our platform available soon for people in the US — sign up to stay informed.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
