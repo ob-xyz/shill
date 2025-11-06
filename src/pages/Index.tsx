@@ -26,8 +26,8 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-          <h4>THE WORLD'S SMARTEST PREDICTION MARKET</h4>
-          <h2><span>You can't get rich.<br />So get rich quick.</span></h2>
+          <h4>YES OR NO</h4>
+          <h2><span>Buy Yes or No shares based on your prediction.</span></h2>
             <p>The world is changing dramatically—from AI breakthroughs to Mamdani's victory in New York. Shilll cuts through the noise with clear and timely information, empowering you to make smarter moves with your money.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
