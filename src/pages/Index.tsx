@@ -27,8 +27,8 @@ export default function Index() {
         <div className="inner-content">
           <div className="text">
           <h4>BET YES OR NO ON ANYTHING</h4>
-          <h2><span>Join Shilll to bet yes or no on anything you actually believe in.</span></h2>
-            <p>The world is changing dramatically—from AI breakthroughs to Mamdani's victory in New York. Shilll helps you cut through the noise by betting on anything you actually believe in, bet yes or no on politics, sports, tech, news, entertainment, and markets.</p>
+          <h2><span>Join Shilll to bet yes or no on anything you actually care about.</span></h2>
+            <p>The world is changing dramatically—from AI breakthroughs to Mamdani's victory in New York. Shilll helps you cut through the noise by betting on anything you actually care about, bet yes or no on politics, sports, tech, news, entertainment, and markets.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
