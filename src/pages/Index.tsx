@@ -26,9 +26,9 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-          <h4>BET ON ANYTHING AND EVERYTHING</h4>
-          <h2><span>Join Shilll and bet on anything and everything you actually care about.</span></h2>
-            <p>The world is changing dramatically—from AI breakthroughs to Mamdani's victory in New York. Shilll empowers you to cut through the noise and bet on politics, sports, tech, culture, entertainment, weather, markets, and more.</p>
+          <h4>WELCOME TO SHILLL</h4>
+          <h2><span>We develop and build Canadian companies that go all the way.</span></h2>
+            <p>Sign up to stay informed.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
