@@ -26,8 +26,8 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-          <h4>WELCOME TO SHILLL</h4>
-          <h2><span>We're a Canadian company that develops and builds generational companies that go all the way.</span></h2>
+            <h4>WELCOME TO SHILLL</h4>
+            <h2><span>We're a Canadian company that develops and builds new companies that last for generations.</span></h2>
             <p>Sign up to stay informed.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
