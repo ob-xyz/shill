@@ -17,7 +17,7 @@
   span {
     text-align: left;
     font-family: ku;
-    font-size: 4.5rem;
+    font-size: 3rem;
     line-height: normal;
   }
   h2 {
@@ -38,35 +38,15 @@
     line-height: normal;
   }
   .content {
-    display: flex;
-    flex-direction: row;
     .inner-content {
       display: flex;
       flex-direction: column;
-      margin-top: 6rem;
-      padding-left:5rem;
-      .text {
-        h2,
-        h2 span {
-          width: 62.5%;
-          margin-left:0;
-          font-size:4rem;
-        }
-        h4{
-          font-size:1.25rem;
-        }
-        p {
-          width:55%;
-          text-align: left;
-          font-size: 1.25rem;
-          padding: 1.5rem 0 .75rem 0;
-          margin-left: 0;
-        }
-      }
+      text-align: center;
+      margin-top: 12rem;
       form {
         display: flex;
         flex-direction: column;
-        margin-left: 0;
+        margin-top: 1rem;
         .h-captcha {
           margin: 0;
           padding-top: 0.25rem;
@@ -125,23 +105,12 @@
       margin-top: 0rem;
       margin-bottom:3rem;
       .inner-content {
-      padding-left:.5rem;
-      padding-right:5rem;
         .text {
-          h4{
-            font-size:.925rem;
-          }
           h2, h2 span {
             padding-right:0;
             padding-top: 0.25rem;
-            font-size: 2.5rem;
+            font-size: 2.25rem;
             width: 100%;
-          }
-          p {
-            padding-top: 2.5rem;
-            padding-bottom: 0.5rem;
-            font-size:1rem;
-            width:90%;
           }
         }
         form {
