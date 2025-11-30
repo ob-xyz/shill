@@ -45,7 +45,7 @@ export default function Footer() {
           </a>
         </div>
         <div className="footer-social">
-          <a href="https://x.com/tradeyourtakes" target="_blank" rel="noopener noreferrer">
+          <a href="https://x.com/shilllcom" target="_blank" rel="noopener noreferrer">
             <img src={x} alt="X (formerly Twitter)" />
           </a>
           <a href="https://linkedin.com/company/signore" target="_blank" rel="noopener noreferrer">
