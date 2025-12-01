@@ -27,7 +27,7 @@ export default function Footer() {
           <div className="column">
             <h4>Company</h4>
             <Link to="/">Home</Link>
-            <a title="Jeffamazon" href="https://Jeffamazon.com"  rel="noopener noreferrer">Jeffamazon</a>
+            <a title="Jeffamazon" href="https://jeffamazon.com"  rel="noopener noreferrer">Jeffamazon</a>
           </div>
           <div className="column">
             <h4>Support</h4>
