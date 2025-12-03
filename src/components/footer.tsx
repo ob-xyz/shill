@@ -28,6 +28,7 @@ export default function Footer() {
             <h4>Company</h4>
             <Link to="/">Home</Link>
             <a title="Jeffamazon" href="https://jeffamazon.com"  rel="noopener noreferrer">Jeffamazon</a>
+            <a title="The Poast" href="https://thepoast.com"  rel="noopener noreferrer">The Poast</a>
           </div>
           <div className="column">
             <h4>Support</h4>
