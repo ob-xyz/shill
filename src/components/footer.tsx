@@ -33,7 +33,6 @@ export default function Footer() {
           <div className="column">
             <h4>Support</h4>
             <a href="mailto:chris@shilll.com">Contact</a>
-            <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">Subscribe</a>
           </div>
         </div>
       </div>
