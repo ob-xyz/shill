@@ -6,7 +6,7 @@ import email from "../assets/img/email.png";
 export default function Footer() {
   return (
     <footer className="footer">
-      <h1>SHILL</h1>
+      <h1>SHILLL</h1>
 
       <div className="footer-top">
         <div className="footer-signup">
